@@ -1680,3 +1680,617 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.19-12.59.19:251][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.10.19-12.59.19:254][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
 [2023.10.19-12.59.19:308][494]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.10.19-13.06.09:822][236]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.10.19-13.06.09:831][236]LogContentBrowser: Creating deferred item: NewWorld
+[2023.10.19-13.06.09:847][237]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.10.19-13.06.15:235][852]LogContentBrowser: Attempting asset rename: NewWorld -> L
+[2023.10.19-13.06.15:236][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.06.15:236][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.06.15:252][852]LogContentBrowser: End creating deferred item NewWorld
+[2023.10.19-13.06.15:974][908]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/L does not exist, will not scan.
+[2023.10.19-13.06.19:773][250]LogObjectTools: Deleting 1 worlds: /Game/L.L
+[2023.10.19-13.06.19:773][250]LogObjectTools: Currently 14 active worlds: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_12
+[2023.10.19-13.06.19:797][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.10.19-13.06.20:964][250]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.19-13.06.20:969][250]LogWorld: UWorld::CleanupWorld for L, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.06.20:969][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.06.20:988][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.10.19-13.06.21:009][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.10.19-13.06.21:029][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.10.19-13.06.24:002][505]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.19-13.06.24:011][505]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.19-13.06.24:024][506]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.19-13.06.26:133][747]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2023.10.19-13.06.26:133][747]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.19-13.06.35:410][697]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.10.19-13.06.35:419][697]LogContentBrowser: Creating deferred item: NewWorld
+[2023.10.19-13.06.35:441][699]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.10.19-13.06.43:834][679]LogContentBrowser: Attempting asset rename: NewWorld -> Level_Start
+[2023.10.19-13.06.43:834][679]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.06.43:834][679]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.06.43:837][679]LogContentBrowser: End creating deferred item NewWorld
+[2023.10.19-13.06.45:594][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.10.19-13.06.48:222][867]LogSlate: Window 'Save Content' being destroyed
+[2023.10.19-13.06.48:231][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.06.48:331][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.19-13.06.48:336][867]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.06.48:336][867]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_StartB184B9E7480DCA99CA7A78B836FE430C.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.06.48:338][867]LogFileHelpers: Saving map 'Level_Start' took 0.030
+[2023.10.19-13.06.48:345][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 1.63 sec)
+[2023.10.19-13.06.48:347][867]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.06.48:355][867]Cmd: MAP LOAD FILE="../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.19-13.06.48:355][867]LightingResults: New page: Lighting Build
+[2023.10.19-13.06.48:357][867]LoadErrors: New page: Loading map: Level_Start.umap
+[2023.10.19-13.06.48:387][867]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.06.48:387][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.06.48:394][867]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.19-13.06.48:394][867]MapCheck: New page: Map Check
+[2023.10.19-13.06.48:394][867]LightingResults: New page: Lighting Build
+[2023.10.19-13.06.48:409][867]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.19-13.06.48:420][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.10.19-13.06.48:425][867]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.06.48:425][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.06.48:440][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.10.19-13.06.48:455][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.10.19-13.06.48:458][867]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_Start'.
+[2023.10.19-13.06.48:458][867]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.06.48:458][867]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.06.48:458][867]LogAIModule: Creating AISystem for world Level_Start
+[2023.10.19-13.06.48:478][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.19-13.06.48:494][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.10.19-13.06.48:499][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.19-13.06.48:499][867]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,066ms to complete.
+[2023.10.19-13.06.48:504][867]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.06.48:504][867]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.06.56:658][750]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.19-13.06.56:658][750]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.19-13.06.56:660][750]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Levels/Level_Start.Level_Start:PersistentLevel.DirectionalLight_0
+[2023.10.19-13.06.56:660][750]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Levels/Level_Start.Level_Start:PersistentLevel.DirectionalLight_0
+[2023.10.19-13.07.09:908][127]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.10.19-13.07.09:908][127]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.10.19-13.07.09:910][127]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/Level_Start.Level_Start:PersistentLevel.SkyAtmosphere_0
+[2023.10.19-13.07.09:910][127]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/Level_Start.Level_Start:PersistentLevel.SkyAtmosphere_0
+[2023.10.19-13.07.23:563][620]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LocalHeightFog
+[2023.10.19-13.07.23:564][620]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LocalHeightFog
+[2023.10.19-13.07.23:565][620]LogActorFactory: Actor Factory spawned Class /Script/Engine.LocalHeightFog as actor: LocalHeightFog /Game/Levels/Level_Start.Level_Start:PersistentLevel.LocalHeightFog_0
+[2023.10.19-13.07.23:565][620]LogActorFactory: Actor Factory spawned Class /Script/Engine.LocalHeightFog as actor: LocalHeightFog /Game/Levels/Level_Start.Level_Start:PersistentLevel.LocalHeightFog_0
+[2023.10.19-13.07.25:385][830]Cmd: DELETE
+[2023.10.19-13.07.25:392][830]Cmd: ACTOR DELETE
+[2023.10.19-13.07.25:472][830]LogEditorActor: Deleted Actor: LocalHeightFog
+[2023.10.19-13.07.25:498][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.10.19-13.07.25:503][830]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2023.10.19-13.07.34:447][812]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.10.19-13.07.34:448][812]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.10.19-13.07.34:449][812]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Levels/Level_Start.Level_Start:PersistentLevel.ExponentialHeightFog_0
+[2023.10.19-13.07.34:449][812]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Levels/Level_Start.Level_Start:PersistentLevel.ExponentialHeightFog_0
+[2023.10.19-13.07.42:525][647]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2023.10.19-13.07.42:526][647]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2023.10.19-13.07.42:527][647]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/Levels/Level_Start.Level_Start:PersistentLevel.VolumetricCloud_0
+[2023.10.19-13.07.42:527][647]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/Levels/Level_Start.Level_Start:PersistentLevel.VolumetricCloud_0
+[2023.10.19-13.07.50:541][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.07.50:657][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.10.19-13.07.50:664][557]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.07.50:664][557]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_StartB9AD019442364C2400A4B584F817739F.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.07.50:682][557]LogFileHelpers: Saving map 'Level_Start' took 0.062
+[2023.10.19-13.07.50:692][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 1.78 sec)
+[2023.10.19-13.07.50:694][557]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.07.50:694][557]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.08.17:613][536]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.19-13.08.17:613][536]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.19-13.08.17:614][536]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/Level_Start.Level_Start:PersistentLevel.StaticMeshActor_0
+[2023.10.19-13.08.17:620][536]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/Level_Start.Level_Start:PersistentLevel.StaticMeshActor_0
+[2023.10.19-13.08.18:125][572]LogShaderCompilers: Display: ================================================
+[2023.10.19-13.08.18:125][572]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Total job queries 111, among them cache hits 14 (12.61%)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Tracking 90 distinct input hashes that result in 62 distinct outputs (68.89%)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: RAM used: 1,95 MiB of 1,60 GiB budget. Usage: 0.12%
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Shaders Compiled: 90
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Jobs assigned 93, completed 90 (96.77%)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Average time worker was idle: 473.01 s
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Time job spent in pending queue: average 0.25 s, longest 1.05 s
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Job execution time: average 0.50 s, max 0.99 s
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Job life time (pending + execution): average 0.75 s, max 1.47
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Shader code size: average 33,55 KiB, min 4,359 KiB, max 43,316 KiB
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.94 s
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Jobs were issued in 93 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Average processing rate: 10.07 jobs/sec
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Total thread time: 29,311 s
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Total thread preprocess time: 2,883 s
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Percentage time preprocessing: 9.84%
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Effective parallelization: 3.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.43 sec, max 0.44 sec, min 0.42 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    2 times, average 0.41 sec, max 0.46 sec, min 0.37 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   21 times, average 0.39 sec, max 0.73 sec, min 0.22 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   14 times, average 0.33 sec, max 0.44 sec, min 0.23 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    3 times, average 0.33 sec, max 0.40 sec, min 0.21 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.14% of total time (compiled   21 times, average 0.39 sec, max 0.73 sec, min 0.22 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.53% of total time (compiled   21 times, average 0.33 sec, max 0.44 sec, min 0.23 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.90% of total time (compiled   14 times, average 0.33 sec, max 0.44 sec, min 0.23 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.58% of total time (compiled   15 times, average 0.17 sec, max 0.36 sec, min 0.08 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display:                                                FAnisotropyVS - 3.93% of total time (compiled    4 times, average 0.29 sec, max 0.37 sec, min 0.22 sec)
+[2023.10.19-13.08.18:126][572]LogShaderCompilers: Display: ================================================
+[2023.10.19-13.09.05:001][772]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.09.05:070][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.10.19-13.09.05:078][772]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.09.05:078][772]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_Start934505AF4011348EEB2BDE94EBAAD9F3.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.09.05:085][772]LogFileHelpers: Saving map 'Level_Start' took 0.050
+[2023.10.19-13.09.05:095][772]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 1.87 sec)
+[2023.10.19-13.09.05:096][772]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.09.05:096][772]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.09.10:563][360]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.10.19-13.09.10:563][360]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.10.19-13.09.10:571][360]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_Player_C_0
+[2023.10.19-13.09.10:574][360]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_Player_C_0
+[2023.10.19-13.09.11:191][409]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.10.19-13.09.11:191][409]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.10.19-13.09.11:199][409]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_Player_C_1
+[2023.10.19-13.09.11:202][409]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_Player_C_1
+[2023.10.19-13.09.11:317][410]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.09.12:914][520]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.19-13.09.12:923][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.19-13.09.12:923][520]PIE: New page: PIE session: Level_Start (19 oct. 2023 à 17:09:12)
+[2023.10.19-13.09.12:946][520]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2023.10.19-13.09.12:949][520]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.10.19-13.09.12:982][521]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.09.12:984][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001984s)
+[2023.10.19-13.09.12:984][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.002052s)
+[2023.10.19-13.09.13:000][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.10.19-13.09.13:003][521]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.09.13:003][521]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.09.13:003][521]LogAIModule: Creating AISystem for world Level_Start
+[2023.10.19-13.09.13:004][521]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2023.10.19-13.09.13:004][521]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.10.19-13.09.13:004][521]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.19-13.09.13:004][521]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.19-13.09.13:004][521]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.19-13.09.13:004][521]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.19-13.09.13:004][521]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.19-13.09.13:004][521]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.19-13.09.13:004][521]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.19-13.09.13:004][521]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.19-13.09.13:004][521]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.19-13.09.13:004][521]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.19-13.09.13:004][521]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.19-13.09.13:006][521]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.19-13.09.13:025][521]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.19-13.09.13:026][521]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.19-13.09.13:026][521]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.19-13.09.13:026][521]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.19-13.09.13:027][521]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.10.19-13.09.13:027][521]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.10.19-13.09.13:028][521]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.10.19-13.09.13:028][521]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.10.19-13.09.13:028][521]LogInit: FAudioDevice initialized with ID 6.
+[2023.10.19-13.09.13:028][521]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level_Start'.
+[2023.10.19-13.09.13:028][521]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.10.19-13.09.13:031][521]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.19-13.09.13:034][521]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.10.19-15.09.13
+[2023.10.19-13.09.13:034][521]LogWorld: Bringing up level for play took: 0.003127
+[2023.10.19-13.09.13:037][521]PIE: Server logged in
+[2023.10.19-13.09.13:038][521]PIE: Play in editor total start time 0,116 seconds.
+[2023.10.19-13.09.15:807][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.09.15:807][829]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.09.15:808][829]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.09.15:808][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.09.15:811][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.19-13.09.15:815][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.09.15:840][829]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.19-13.09.15:840][829]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.10.19-13.09.15:840][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.10.19-13.09.15:841][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.10.19-13.09.15:844][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.09.15:848][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.10.19-13.09.15:931][830]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.10.19-13.09.15:954][830]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.09.21:318][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.09.21:435][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.10.19-13.09.21:443][188]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.09.21:444][188]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_Start085814C5400B1C0C9775E093B31F7A27.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.09.21:450][188]LogFileHelpers: Saving map 'Level_Start' took 0.056
+[2023.10.19-13.09.21:457][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 2.01 sec)
+[2023.10.19-13.09.21:458][188]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.09.21:458][188]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.09.21:977][222]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.19-13.09.21:986][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.19-13.09.21:986][222]PIE: New page: PIE session: Level_Start (19 oct. 2023 à 17:09:21)
+[2023.10.19-13.09.21:986][222]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2023.10.19-13.09.21:990][222]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.10.19-13.09.22:020][223]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.09.22:022][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002113s)
+[2023.10.19-13.09.22:022][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.002163s)
+[2023.10.19-13.09.22:036][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.10.19-13.09.22:039][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.09.22:039][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.09.22:039][223]LogAIModule: Creating AISystem for world Level_Start
+[2023.10.19-13.09.22:040][223]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2023.10.19-13.09.22:040][223]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.10.19-13.09.22:040][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.19-13.09.22:040][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.19-13.09.22:040][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.19-13.09.22:040][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.19-13.09.22:040][223]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.19-13.09.22:040][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.19-13.09.22:040][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.19-13.09.22:040][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.19-13.09.22:040][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.19-13.09.22:040][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.19-13.09.22:040][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.19-13.09.22:042][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.19-13.09.22:058][223]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.19-13.09.22:059][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.19-13.09.22:059][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.19-13.09.22:059][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.19-13.09.22:060][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.10.19-13.09.22:060][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.10.19-13.09.22:061][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.10.19-13.09.22:061][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.10.19-13.09.22:061][223]LogInit: FAudioDevice initialized with ID 7.
+[2023.10.19-13.09.22:061][223]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level_Start'.
+[2023.10.19-13.09.22:061][223]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.10.19-13.09.22:064][223]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.19-13.09.22:067][223]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.10.19-15.09.22
+[2023.10.19-13.09.22:067][223]LogWorld: Bringing up level for play took: 0.003080
+[2023.10.19-13.09.22:068][223]PIE: Server logged in
+[2023.10.19-13.09.22:069][223]PIE: Play in editor total start time 0,084 seconds.
+[2023.10.19-13.09.26:777][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.09.26:777][758]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.09.26:777][758]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.09.26:778][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.09.26:781][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.19-13.09.26:785][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.09.26:801][758]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.19-13.09.26:801][758]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.10.19-13.09.26:801][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.10.19-13.09.26:803][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.10.19-13.09.26:806][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.09.26:809][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.10.19-13.09.26:891][759]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.10.19-13.09.26:914][759]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.12.10:681][143]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.12.10:881][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.10.19-13.12.10:924][143]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.10.19-13.12.10:926][143]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_Player017714AB4C400B34B06D74AAF027C716.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.10.19-13.12.10:932][143]LogFileHelpers: InternalPromptForCheckoutAndSave took 250 ms (total: 2.26 sec)
+[2023.10.19-13.12.10:933][143]AssetCheck: New page: Asset Save: BP_Player
+[2023.10.19-13.12.10:933][143]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.10.19-13.12.12:751][361]BlueprintLog: New page: Compile BP_Player
+[2023.10.19-13.12.12:869][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.10.19-13.12.55:780][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.12.55:904][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.10.19-13.12.55:918][940]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.10.19-13.12.55:918][940]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_Player1A9C20B844AF424BADE51A96DCCAD117.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.10.19-13.12.55:924][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 2.41 sec)
+[2023.10.19-13.12.55:926][940]AssetCheck: New page: Asset Save: BP_Player
+[2023.10.19-13.12.55:926][940]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.10.19-13.13.32:704][209]LogSlate: Took 0.010483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.10.19-13.14.06:652][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.14.06:836][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.10.19-13.14.06:855][142]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.10.19-13.14.06:856][142]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_Player171AD9024302284764D0C59906459735.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.10.19-13.14.06:862][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 2.62 sec)
+[2023.10.19-13.14.06:865][142]AssetCheck: New page: Asset Save: BP_Player
+[2023.10.19-13.14.06:865][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.10.19-13.14.58:850][194]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.15.06:270][701]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.10.19-13.15.08:558][820]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.19-13.15.08:579][820]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.19-13.15.08:590][821]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.19-13.15.13:379][158]LogContentBrowser: Attempting asset rename: NewFolder -> Triggers
+[2023.10.19-13.15.13:380][158]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.19-13.15.21:222][522]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.19-13.15.21:232][522]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.19-13.15.21:239][522]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.19-13.15.21:259][524]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.19-13.15.43:073][687]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_MyTriggerBox
+[2023.10.19-13.15.43:082][687]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.10.19-13.15.51:766][194]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2023.10.19-13.15.51:777][194]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2023.10.19-13.15.51:797][195]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2023.10.19-13.16.03:485][ 77]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_TriggerBoxTypes
+[2023.10.19-13.16.03:499][ 77]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2023.10.19-13.16.05:828][242]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Triggers/E_TriggerBoxTypes.E_TriggerBoxTypes
+[2023.10.19-13.16.10:636][795]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2023.10.19-13.16.36:731][319]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.16.36:808][319]LogSavePackage: Moving output files for package: /Game/Blueprints/Triggers/E_TriggerBoxTypes
+[2023.10.19-13.16.36:808][319]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/E_TriggerBoxTypes31C4AAAD42E134C2A3F1338E7380A26C.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Triggers/E_TriggerBoxTypes.uasset'
+[2023.10.19-13.16.36:818][319]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 2.70 sec)
+[2023.10.19-13.16.36:819][319]AssetCheck: New page: Asset Save: E_TriggerBoxTypes
+[2023.10.19-13.16.36:819][319]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/Blueprints/Triggers/E_TriggerBoxTypes.E_TriggerBoxTypes
+[2023.10.19-13.16.42:362][893]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.16.42:468][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.10.19-13.16.42:479][893]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.10.19-13.16.42:480][893]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_Player2F1043C047A7A8BA8E602B925F939290.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.10.19-13.16.42:486][893]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 2.83 sec)
+[2023.10.19-13.16.42:487][893]AssetCheck: New page: Asset Save: BP_Player
+[2023.10.19-13.16.42:487][893]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.10.19-13.16.44:703][157]BlueprintLog: New page: Compile BP_Player
+[2023.10.19-13.16.44:834][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.10.19-13.16.45:367][189]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.16.47:759][339]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox
+[2023.10.19-13.16.47:759][339]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.16.47:759][339]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.16.47:865][339]LogViewport: Scene viewport resized to 874x867, mode Windowed.
+[2023.10.19-13.17.55:733][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.17.55:804][197]LogSavePackage: Moving output files for package: /Game/Blueprints/Triggers/BP_MyTriggerBox
+[2023.10.19-13.17.55:804][197]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_MyTriggerBox3FCDC70047191B4C99B3F38B334F0761.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Triggers/BP_MyTriggerBox.uasset'
+[2023.10.19-13.17.55:812][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 2.91 sec)
+[2023.10.19-13.17.55:813][197]AssetCheck: New page: Asset Save: BP_MyTriggerBox
+[2023.10.19-13.17.55:813][197]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox
+[2023.10.19-13.18.05:067][307]BlueprintLog: New page: Compile BP_MyTriggerBox
+[2023.10.19-13.18.05:096][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.10.19-13.22.05:612][702]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.22.05:698][702]LogSavePackage: Moving output files for package: /Game/Blueprints/Triggers/BP_MyTriggerBox
+[2023.10.19-13.22.05:699][702]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_MyTriggerBox97B2C5CF4391C3532F1C3CAFF9369E1F.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Triggers/BP_MyTriggerBox.uasset'
+[2023.10.19-13.22.05:704][702]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 3.00 sec)
+[2023.10.19-13.22.05:706][702]AssetCheck: New page: Asset Save: BP_MyTriggerBox
+[2023.10.19-13.22.05:706][702]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox
+[2023.10.19-13.22.55:760][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.22.55:927][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.10.19-13.22.55:944][292]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.10.19-13.22.55:944][292]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_Player0553F6E14DA5A6EECFFF6895D8FFEBB0.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.10.19-13.22.55:954][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 3.20 sec)
+[2023.10.19-13.22.55:954][292]AssetCheck: New page: Asset Save: BP_Player
+[2023.10.19-13.22.55:954][292]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.10.19-13.22.57:917][526]BlueprintLog: New page: Compile BP_Player
+[2023.10.19-13.22.58:033][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.10.19-13.23.12:468][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.23.12:544][ 99]LogSavePackage: Moving output files for package: /Game/Blueprints/Triggers/BP_MyTriggerBox
+[2023.10.19-13.23.12:544][ 99]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_MyTriggerBoxF71677C04AC89A527039299CD7F5EE84.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Triggers/BP_MyTriggerBox.uasset'
+[2023.10.19-13.23.12:552][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 3.28 sec)
+[2023.10.19-13.23.12:553][ 99]AssetCheck: New page: Asset Save: BP_MyTriggerBox
+[2023.10.19-13.23.12:553][ 99]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox
+[2023.10.19-13.23.43:001][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.23.43:076][328]LogSavePackage: Moving output files for package: /Game/Blueprints/Triggers/BP_MyTriggerBox
+[2023.10.19-13.23.43:076][328]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/BP_MyTriggerBox4FCBC5FF4984760E31AD62B94043478D.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Triggers/BP_MyTriggerBox.uasset'
+[2023.10.19-13.23.43:084][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 3.36 sec)
+[2023.10.19-13.23.43:085][328]AssetCheck: New page: Asset Save: BP_MyTriggerBox
+[2023.10.19-13.23.43:085][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox
+[2023.10.19-13.23.44:173][451]BlueprintLog: New page: Compile BP_MyTriggerBox
+[2023.10.19-13.23.44:204][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.10.19-13.23.45:930][642]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.23.55:028][262]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.23.55:028][262]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.23.55:029][262]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_0
+[2023.10.19-13.23.55:030][262]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_0
+[2023.10.19-13.23.55:585][291]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.23.55:585][291]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.23.55:586][291]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_1
+[2023.10.19-13.23.55:587][291]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_1
+[2023.10.19-13.24.49:348][549]LogEditorViewport: Clicking Background
+[2023.10.19-13.24.50:632][676]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.24.50:632][676]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.24.50:632][676]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_2
+[2023.10.19-13.24.50:633][676]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_2
+[2023.10.19-13.24.52:265][857]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.24.52:265][857]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.24.52:266][857]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_3
+[2023.10.19-13.24.52:267][857]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_3
+[2023.10.19-13.25.36:769][999]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.25.36:848][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.10.19-13.25.36:859][999]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.25.36:859][999]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_Start847D994249F1CC14F498D2A8944EF3D6.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.25.36:866][999]LogFileHelpers: Saving map 'Level_Start' took 0.061
+[2023.10.19-13.25.36:872][999]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 3.47 sec)
+[2023.10.19-13.25.36:873][999]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.25.36:873][999]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.25.45:574][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.19-13.25.45:574][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.19-13.25.45:576][725]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/Level_Start.Level_Start:PersistentLevel.StaticMeshActor_1
+[2023.10.19-13.25.45:577][725]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/Level_Start.Level_Start:PersistentLevel.StaticMeshActor_1
+[2023.10.19-13.26.05:866][590]Cmd: EDIT COPY
+[2023.10.19-13.26.06:179][618]Cmd: EDIT PASTE
+[2023.10.19-13.26.15:105][462]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.26.15:175][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.10.19-13.26.15:185][462]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.26.15:186][462]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_Start54421D79478D8BD44F0D73A2393B5671.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.26.15:193][462]LogFileHelpers: Saving map 'Level_Start' took 0.052
+[2023.10.19-13.26.15:203][462]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 3.57 sec)
+[2023.10.19-13.26.15:204][462]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.26.15:204][462]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.26.26:600][553]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.19-13.26.26:607][553]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.19-13.26.26:609][553]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2023.10.19-13.26.26:628][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.10.19-13.26.26:629][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 22 ms (1 blueprints)
+[2023.10.19-13.26.26:630][553]PIE: New page: PIE session: Level_Start (19 oct. 2023 à 17:26:26)
+[2023.10.19-13.26.26:630][553]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2023.10.19-13.26.26:632][553]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.10.19-13.26.26:645][554]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.26.26:647][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001999s)
+[2023.10.19-13.26.26:647][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.002049s)
+[2023.10.19-13.26.26:662][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.10.19-13.26.26:663][554]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.26.26:663][554]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.26.26:663][554]LogAIModule: Creating AISystem for world Level_Start
+[2023.10.19-13.26.26:664][554]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2023.10.19-13.26.26:664][554]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.10.19-13.26.26:664][554]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.19-13.26.26:664][554]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.19-13.26.26:664][554]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.19-13.26.26:664][554]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.19-13.26.26:664][554]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.19-13.26.26:664][554]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.19-13.26.26:664][554]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.19-13.26.26:664][554]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.19-13.26.26:664][554]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.19-13.26.26:664][554]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.19-13.26.26:664][554]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.19-13.26.26:666][554]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.19-13.26.26:684][554]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.19-13.26.26:685][554]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.19-13.26.26:685][554]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.19-13.26.26:685][554]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.19-13.26.26:686][554]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.10.19-13.26.26:686][554]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.10.19-13.26.26:687][554]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.10.19-13.26.26:687][554]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.10.19-13.26.26:687][554]LogInit: FAudioDevice initialized with ID 8.
+[2023.10.19-13.26.26:687][554]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level_Start'.
+[2023.10.19-13.26.26:687][554]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.10.19-13.26.26:689][554]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.19-13.26.26:694][554]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.10.19-15.26.26
+[2023.10.19-13.26.26:694][554]LogWorld: Bringing up level for play took: 0.004069
+[2023.10.19-13.26.26:694][554]PIE: Server logged in
+[2023.10.19-13.26.26:696][554]PIE: Play in editor total start time 0,089 seconds.
+[2023.10.19-13.26.38:527][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.26.38:527][826]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.26.38:527][826]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.26.38:528][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.26.38:532][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.19-13.26.38:537][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.26.38:566][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.26.38:566][826]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.10.19-13.26.38:566][826]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.10.19-13.26.38:568][826]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.10.19-13.26.38:574][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.10.19-13.26.38:627][827]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.10.19-13.26.45:592][474]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.26.49:867][758]LogEditorViewport: Clicking Background
+[2023.10.19-13.26.51:795][935]Cmd: DELETE
+[2023.10.19-13.26.51:795][935]Cmd: ACTOR DELETE
+[2023.10.19-13.26.51:804][935]LogEditorActor: Deleted Actor: BP_MyTriggerBox_C
+[2023.10.19-13.26.51:821][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.10.19-13.26.51:825][935]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.10.19-13.26.58:685][642]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.19-13.26.58:703][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.19-13.26.58:703][642]PIE: New page: PIE session: Level_Start (19 oct. 2023 à 17:26:58)
+[2023.10.19-13.26.58:737][642]LogPlayLevel: Display: Creating online subsystem for client :Context_22
+[2023.10.19-13.26.58:742][642]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.10.19-13.26.58:772][643]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.26.58:774][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002137s)
+[2023.10.19-13.26.58:774][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.002192s)
+[2023.10.19-13.26.58:794][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.10.19-13.26.58:797][643]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.26.58:797][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.26.58:798][643]LogAIModule: Creating AISystem for world Level_Start
+[2023.10.19-13.26.58:798][643]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2023.10.19-13.26.58:798][643]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.10.19-13.26.58:798][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.19-13.26.58:798][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.19-13.26.58:798][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.19-13.26.58:798][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.19-13.26.58:798][643]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.19-13.26.58:798][643]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.19-13.26.58:798][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.19-13.26.58:798][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.19-13.26.58:799][643]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.19-13.26.58:799][643]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.19-13.26.58:799][643]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.19-13.26.58:801][643]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.19-13.26.58:817][643]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.19-13.26.58:818][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.19-13.26.58:818][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.19-13.26.58:818][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.19-13.26.58:819][643]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.10.19-13.26.58:819][643]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.10.19-13.26.58:820][643]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.10.19-13.26.58:820][643]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.10.19-13.26.58:820][643]LogInit: FAudioDevice initialized with ID 9.
+[2023.10.19-13.26.58:820][643]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level_Start'.
+[2023.10.19-13.26.58:820][643]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.10.19-13.26.58:823][643]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.19-13.26.58:827][643]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.10.19-15.26.58
+[2023.10.19-13.26.58:827][643]LogWorld: Bringing up level for play took: 0.003848
+[2023.10.19-13.26.58:828][643]PIE: Server logged in
+[2023.10.19-13.26.58:829][643]PIE: Play in editor total start time 0,133 seconds.
+[2023.10.19-13.27.03:967][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.27.03:967][182]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.27.03:967][182]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.27.03:968][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.27.03:972][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.19-13.27.03:976][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.27.03:998][182]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.19-13.27.03:999][182]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.10.19-13.27.03:999][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.10.19-13.27.04:000][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.10.19-13.27.04:005][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.27.04:007][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.10.19-13.27.04:045][183]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.10.19-13.27.56:043][361]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.28.06:083][225]LogViewport: Scene viewport resized to 476x160, mode Windowed.
+[2023.10.19-13.28.24:020][853]LogEditorViewport: Clicking Background
+[2023.10.19-13.28.33:522][817]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.28.33:522][817]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.28.33:524][817]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_4
+[2023.10.19-13.28.33:526][817]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_4
+[2023.10.19-13.28.38:306][301]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.28.38:306][301]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.28.38:307][301]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_5
+[2023.10.19-13.28.38:308][301]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_5
+[2023.10.19-13.28.39:123][380]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.28.39:123][380]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox_C
+[2023.10.19-13.28.39:125][380]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_6
+[2023.10.19-13.28.39:126][380]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Triggers/BP_MyTriggerBox.BP_MyTriggerBox as actor: BP_MyTriggerBox_C /Game/Levels/Level_Start.Level_Start:PersistentLevel.BP_MyTriggerBox_C_6
+[2023.10.19-13.29.53:686][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.29.53:815][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.10.19-13.29.53:824][128]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.29.53:825][128]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_StartCB9DC73E46C2E75B8CBBDCB5B18B0FA5.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.29.53:832][128]LogFileHelpers: Saving map 'Level_Start' took 0.064
+[2023.10.19-13.29.53:838][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 3.72 sec)
+[2023.10.19-13.29.53:839][128]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.29.53:840][128]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.10.19-13.29.55:123][252]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.19-13.29.55:128][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.19-13.29.55:128][252]PIE: New page: PIE session: Level_Start (19 oct. 2023 à 17:29:55)
+[2023.10.19-13.29.55:167][252]LogPlayLevel: Display: Creating online subsystem for client :Context_23
+[2023.10.19-13.29.55:172][252]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.10.19-13.29.55:198][253]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.29.55:200][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002173s)
+[2023.10.19-13.29.55:200][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.002230s)
+[2023.10.19-13.29.55:223][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.10.19-13.29.55:225][253]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.19-13.29.55:225][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.19-13.29.55:225][253]LogAIModule: Creating AISystem for world Level_Start
+[2023.10.19-13.29.55:226][253]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2023.10.19-13.29.55:226][253]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.10.19-13.29.55:226][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.19-13.29.55:226][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.19-13.29.55:226][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.19-13.29.55:226][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.19-13.29.55:226][253]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.19-13.29.55:226][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.19-13.29.55:226][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.19-13.29.55:226][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.19-13.29.55:226][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.19-13.29.55:226][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.19-13.29.55:226][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.19-13.29.55:228][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.19-13.29.55:244][253]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.19-13.29.55:246][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.19-13.29.55:246][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.19-13.29.55:246][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.19-13.29.55:247][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.10.19-13.29.55:247][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.10.19-13.29.55:248][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.10.19-13.29.55:248][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.10.19-13.29.55:248][253]LogInit: FAudioDevice initialized with ID 10.
+[2023.10.19-13.29.55:248][253]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level_Start'.
+[2023.10.19-13.29.55:248][253]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.10.19-13.29.55:251][253]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.19-13.29.55:254][253]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.10.19-15.29.55
+[2023.10.19-13.29.55:255][253]LogWorld: Bringing up level for play took: 0.003487
+[2023.10.19-13.29.55:255][253]PIE: Server logged in
+[2023.10.19-13.29.55:256][253]PIE: Play in editor total start time 0,127 seconds.
+[2023.10.19-13.30.05:767][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.30.05:767][416]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.10.19-13.30.05:768][416]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.10.19-13.30.05:768][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.30.05:775][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.19-13.30.05:781][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.19-13.30.05:810][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.19-13.30.05:810][416]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.10.19-13.30.05:810][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.10.19-13.30.05:812][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.10.19-13.30.05:818][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.19-13.30.05:851][417]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.10.19-13.30.07:379][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.19-13.30.07:449][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.10.19-13.30.07:459][570]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.10.19-13.30.07:459][570]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Saved/Level_StartD65C7D624FFD068E602E2FAEF1C53D3A.tmp' to '../../../../../Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.10.19-13.30.07:466][570]LogFileHelpers: Saving map 'Level_Start' took 0.052
+[2023.10.19-13.30.07:473][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 3.81 sec)
+[2023.10.19-13.30.07:474][570]AssetCheck: New page: Asset Save: Level_Start
+[2023.10.19-13.30.07:474][570]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
