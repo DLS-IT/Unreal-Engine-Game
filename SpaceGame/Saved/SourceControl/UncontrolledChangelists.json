@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/Program Files/Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset",
+				"E:/Program Files/Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Actors/Test_Fire.uasset",
+				"E:/Program Files/Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset",
+				"E:/Program Files/Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_PlayerController.uasset",
+				"E:/Program Files/Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Actors/BP_Indice.uasset",
+				"E:/Program Files/Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap",
 				"E:/Program Files/Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset",
 				"E:/Program Files/Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/CY/B85LSZ8H9JCKUQUR44IK84.uasset",
 				"E:/Program Files/Github/Unreal-Engine-Game/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap",
