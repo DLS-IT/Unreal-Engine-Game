@@ -2461,3 +2461,1435 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.10-14.24.26:916][971]LogPlayLevel: Display: Destroying online subsystem :Context_24
 [2023.11.10-14.24.31:295][238]LogSlate: Window 'Message Log' being destroyed
 [2023.11.10-14.24.31:315][238]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.29.44:469][704]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.10-14.31.04:517][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.31.04:580][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.31.04:591][726]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.31.04:592][726]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main4AD1C89F48846E8BC2059394B6B81325.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.31.04:600][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 7.38 sec)
+[2023.11.10-14.31.04:600][726]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.31.04:600][726]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.31.30:471][445]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 144445
+[2023.11.10-14.31.30:473][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.31.30:481][446]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.11.10-14.31.30:481][446]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.11.10-14.31.30:483][446]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.11.10-14.31.30:484][446]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.11.10-14.31.30:489][446]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.11.10-14.31.35:190][938]LogSlate: Took 0.002706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.11.10-14.31.39:094][339]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.10-14.31.40:334][401]LogShaderCompilers: Display: ================================================
+[2023.11.10-14.31.40:334][401]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.10-14.31.40:334][401]LogShaderCompilers: Display: Total job queries 232, among them cache hits 44 (18.97%)
+[2023.11.10-14.31.40:334][401]LogShaderCompilers: Display: Tracking 168 distinct input hashes that result in 128 distinct outputs (76.19%)
+[2023.11.10-14.31.40:334][401]LogShaderCompilers: Display: RAM used: 4,74 MiB of 1,60 GiB budget. Usage: 0.29%
+[2023.11.10-14.31.40:334][401]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.10-14.31.40:334][401]LogShaderCompilers: Display: Shaders Compiled: 168
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Jobs assigned 169, completed 168 (99.41%)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Average time worker was idle: 139.03 s
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Time job spent in pending queue: average 0.16 s, longest 1.04 s
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Job execution time: average 0.48 s, max 1.32 s
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 1.37
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Shader code size: average 51,759 KiB, min 1,187 KiB, max 83,812 KiB
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 38.33 s
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Jobs were issued in 169 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Average processing rate: 4.38 jobs/sec
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Total thread time: 55,199 s
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Total thread preprocess time: 4,094 s
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Percentage time preprocessing: 7.42%
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Effective parallelization: 1.44 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   51 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   44 times, average 0.34 sec, max 0.89 sec, min 0.04 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 35.00% of total time (compiled   51 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.80% of total time (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                               FNiagaraShader - 27.24% of total time (compiled   44 times, average 0.34 sec, max 0.89 sec, min 0.04 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.82% of total time (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display:                                                  FHitProxyPS - 1.95% of total time (compiled    7 times, average 0.15 sec, max 0.25 sec, min 0.11 sec)
+[2023.11.10-14.31.40:335][401]LogShaderCompilers: Display: ================================================
+[2023.11.10-14.32.07:065][932]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.10-14.32.30:971][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.32.31:061][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.32.31:071][522]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.32.31:073][522]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main701A0ACF425BDC5291112CB4807CF67B.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.32.31:080][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 7.49 sec)
+[2023.11.10-14.32.31:081][522]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.32.31:081][522]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.32.45:231][ 82]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.11.10-14.33.48:391][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.33.48:467][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.33.48:478][324]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.33.48:479][324]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_mainC2195C484CDC669AF436409A0CD3C192.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.33.48:486][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 7.59 sec)
+[2023.11.10-14.33.48:490][324]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.33.48:490][324]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.33.54:155][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.33.54:223][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.33.54:245][950]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.33.54:245][950]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_mainAC808BC940EBAC7A6A608A8367EFA72F.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.33.54:251][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 7.69 sec)
+[2023.11.10-14.33.54:254][950]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.33.54:254][950]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.33.55:695][101]BlueprintLog: New page: Compile WB_main
+[2023.11.10-14.33.55:823][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.11.10-14.33.56:553][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.33.56:635][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.33.56:649][151]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.33.56:650][151]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main091358B94EB8C69FF1EBA8818AC5D822.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.33.56:656][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 7.79 sec)
+[2023.11.10-14.33.56:657][151]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.33.56:657][151]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.35.03:991][690]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.35.04:055][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.35.04:065][690]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.35.04:065][690]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main7CCE1109469E7D24A75F6EBBD6486064.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.35.04:073][690]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 7.87 sec)
+[2023.11.10-14.35.04:074][690]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.35.04:074][690]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.35.18:993][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.35.19:048][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.35.19:058][411]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.35.19:059][411]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main28AA705A4BF66E1CD9F504917FF5EE21.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.35.19:066][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 7.94 sec)
+[2023.11.10-14.35.19:068][411]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.35.19:068][411]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.35.20:437][572]BlueprintLog: New page: Compile WB_main
+[2023.11.10-14.35.20:473][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.10-14.35.20:911][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.35.20:966][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.35.20:978][617]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.35.20:979][617]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_mainDF23F211494C5A56A1812998EBBA3F6C.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.35.20:986][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 8.02 sec)
+[2023.11.10-14.35.20:987][617]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.35.20:987][617]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.35.55:473][954]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.10-14.36.43:738][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.36.43:778][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerController" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_PlayerController.uasset" SILENT=true
+[2023.11.10-14.36.43:786][123]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerController
+[2023.11.10-14.36.43:787][123]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerController0E38CFED4244C63C0DAF0785FF9116E9.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_PlayerController.uasset'
+[2023.11.10-14.36.43:794][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 8.07 sec)
+[2023.11.10-14.36.43:795][123]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.11.10-14.36.43:795][123]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PlayerController.BP_PlayerController
+[2023.11.10-14.36.53:418][256]BlueprintLog: New page: Compile BP_PlayerController
+[2023.11.10-14.36.53:471][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.10-14.37.34:578][726]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.11.10-14.37.34:578][726]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.11.10-14.38.14:423][104]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.11.10-14.38.26:959][519]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:29.281 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 15274 files in 17728 folders with total size 1102 MiB.
+[2023.11.10-14.39.45:373][944]LogSlate: Took 0.022892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.11.10-14.39.52:505][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.39.52:653][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.39.52:691][536]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.39.52:693][536]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerCDD8040844F83C0CF8CF2B82EA3ED141.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.39.52:700][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 8.27 sec)
+[2023.11.10-14.39.52:701][536]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.39.52:701][536]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.39.53:337][575]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.39.53:445][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.11.10-14.39.54:071][599]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.39.54:203][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.39.54:242][599]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.39.54:243][599]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player0837552F4211F137871D1D8375790144.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.39.54:250][599]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 8.45 sec)
+[2023.11.10-14.39.54:253][599]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.39.54:253][599]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.41.08:683][343]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.41.08:827][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.41.08:862][343]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.41.08:863][343]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player156FF3434E950514D739C28B085D1B2B.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.41.08:872][343]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 8.64 sec)
+[2023.11.10-14.41.08:875][343]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.41.08:875][343]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.41.09:765][446]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.41.09:875][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.11.10-14.41.10:397][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.41.10:517][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.41.10:552][471]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.41.10:553][471]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerCAFC07FC471A44341A34BE9BBE3872CD.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.41.10:560][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 8.80 sec)
+[2023.11.10-14.41.10:562][471]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.41.10:562][471]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.42.13:847][905]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.42.13:977][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.42.14:013][905]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.42.14:014][905]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player05C19702419722DBE144A28DED79A344.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.42.14:020][905]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 8.98 sec)
+[2023.11.10-14.42.14:023][905]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.42.14:023][905]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.42.50:271][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.42.50:450][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.42.50:490][720]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.42.50:490][720]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player6354B60F44F3A270E2A975BB40843722.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.42.50:499][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 9.20 sec)
+[2023.11.10-14.42.50:501][720]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.42.50:501][720]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.43.17:407][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.43.17:531][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.43.17:570][379]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.43.17:570][379]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerBE2A8DDE4776F872E8FB75AC0DEFE2E9.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.43.17:579][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 9.38 sec)
+[2023.11.10-14.43.17:581][379]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.43.17:581][379]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.43.26:165][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.43.26:202][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.43.26:236][339]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.43.26:237][339]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player7454611348E7284B5CBDE8A4CE020BED.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.43.26:244][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 9.45 sec)
+[2023.11.10-14.43.26:245][339]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.43.26:245][339]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.43.28:188][552]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.43.28:300][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.11.10-14.43.29:417][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.43.29:593][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.43.29:625][651]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.43.29:626][651]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player4C602D254B16D7C816304E894CDC9932.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.43.29:634][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 9.67 sec)
+[2023.11.10-14.43.29:635][651]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.43.29:636][651]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.44.03:619][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.44.05:066][ 12]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interaction/BP_Doors.BP_Doors
+[2023.11.10-14.44.05:067][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.44.05:067][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.44.19:790][652]LogSlate: Window 'BP_Doors' being destroyed
+[2023.11.10-14.44.19:796][652]LogSlate: Window 'BP_Doors' being destroyed
+[2023.11.10-14.44.19:803][652]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.44.19:803][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.44.23:697][ 13]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interaction/BP_TemporaryKey.BP_TemporaryKey
+[2023.11.10-14.44.23:697][ 13]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.44.23:698][ 13]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.45.15:676][675]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.45.15:739][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interaction/BP_TemporaryKey" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset" SILENT=true
+[2023.11.10-14.45.15:750][675]LogSavePackage: Moving output files for package: /Game/Blueprints/Interaction/BP_TemporaryKey
+[2023.11.10-14.45.15:750][675]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_TemporaryKey6981737F4844B85C3C9C12A59F8CED17.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset'
+[2023.11.10-14.45.15:759][675]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 9.75 sec)
+[2023.11.10-14.45.15:760][675]AssetCheck: New page: Asset Save: BP_TemporaryKey
+[2023.11.10-14.45.15:760][675]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Interaction/BP_TemporaryKey.BP_TemporaryKey
+[2023.11.10-14.45.17:147][766]BlueprintLog: New page: Compile BP_TemporaryKey
+[2023.11.10-14.45.17:194][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.11.10-14.45.22:970][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.45.23:049][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interaction/BP_TemporaryKey" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset" SILENT=true
+[2023.11.10-14.45.23:058][117]LogSavePackage: Moving output files for package: /Game/Blueprints/Interaction/BP_TemporaryKey
+[2023.11.10-14.45.23:058][117]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_TemporaryKeyEC547F624A5E7835288323905B098A67.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset'
+[2023.11.10-14.45.23:066][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 9.85 sec)
+[2023.11.10-14.45.23:069][117]AssetCheck: New page: Asset Save: BP_TemporaryKey
+[2023.11.10-14.45.23:069][117]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Interaction/BP_TemporaryKey.BP_TemporaryKey
+[2023.11.10-14.45.26:893][351]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.45.26:954][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interaction/BP_TemporaryKey" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset" SILENT=true
+[2023.11.10-14.45.26:965][351]LogSavePackage: Moving output files for package: /Game/Blueprints/Interaction/BP_TemporaryKey
+[2023.11.10-14.45.26:966][351]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_TemporaryKeyFE136166434D2322D7E1F0B5E62A8B55.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset'
+[2023.11.10-14.45.26:986][351]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 9.94 sec)
+[2023.11.10-14.45.26:987][351]AssetCheck: New page: Asset Save: BP_TemporaryKey
+[2023.11.10-14.45.26:988][351]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Interaction/BP_TemporaryKey.BP_TemporaryKey
+[2023.11.10-14.46.04:506][858]LogTexture: Display: Building textures: /Game/FXVarietyPack/Particles/P_ky_hit1.P_ky_hit1:ThumbnailTexture (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 29.89575 MB), EncodeSpeed: Fast
+[2023.11.10-14.46.04:565][858]LogTexture: Display: Building textures: /Game/FXVarietyPack/Textures/T_ky_flare25_4x4.T_ky_flare25_4x4 (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 280.062483 MB), EncodeSpeed: Fast
+[2023.11.10-14.46.13:511][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.46.13:569][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interaction/BP_TemporaryKey" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset" SILENT=true
+[2023.11.10-14.46.13:580][449]LogSavePackage: Moving output files for package: /Game/Blueprints/Interaction/BP_TemporaryKey
+[2023.11.10-14.46.13:580][449]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_TemporaryKey7883C20E424087394BB2DCB683F54609.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset'
+[2023.11.10-14.46.13:590][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 10.0 sec)
+[2023.11.10-14.46.13:591][449]AssetCheck: New page: Asset Save: BP_TemporaryKey
+[2023.11.10-14.46.13:591][449]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Interaction/BP_TemporaryKey.BP_TemporaryKey
+[2023.11.10-14.46.44:243][602]BlueprintLog: New page: Compile BP_TemporaryKey
+[2023.11.10-14.46.44:283][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.11.10-14.46.45:506][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.46.45:566][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interaction/BP_TemporaryKey" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset" SILENT=true
+[2023.11.10-14.46.45:576][679]LogSavePackage: Moving output files for package: /Game/Blueprints/Interaction/BP_TemporaryKey
+[2023.11.10-14.46.45:577][679]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_TemporaryKeyA71253AF40B4155B32BAC8985BEB70D6.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/Interaction/BP_TemporaryKey.uasset'
+[2023.11.10-14.46.45:585][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 10.1 sec)
+[2023.11.10-14.46.45:586][679]AssetCheck: New page: Asset Save: BP_TemporaryKey
+[2023.11.10-14.46.45:586][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Interaction/BP_TemporaryKey.BP_TemporaryKey
+[2023.11.10-14.47.04:758][924]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.47.04:812][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_Start" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.10-14.47.04:861][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.10-14.47.04:880][924]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.11.10-14.47.04:880][924]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/Level_Start6392E07944563FF7324FDAB044DBC6CF.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.11.10-14.47.04:891][924]LogFileHelpers: Saving map 'Level_Start' took 0.078
+[2023.11.10-14.47.04:900][924]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 10.2 sec)
+[2023.11.10-14.47.04:902][924]AssetCheck: New page: Asset Save: Level_Start
+[2023.11.10-14.47.04:902][924]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.11.10-14.47.13:656][530]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.47.13:709][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_Start" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.10-14.47.13:754][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.10-14.47.13:771][530]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.11.10-14.47.13:771][530]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/Level_Start0C9862884D836C52ED09D19B4A2F0922.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.11.10-14.47.13:781][530]LogFileHelpers: Saving map 'Level_Start' took 0.071
+[2023.11.10-14.47.13:790][530]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 10.3 sec)
+[2023.11.10-14.47.13:791][530]AssetCheck: New page: Asset Save: Level_Start
+[2023.11.10-14.47.13:791][530]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.11.10-14.47.15:594][648]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-14.47.15:604][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-14.47.15:604][648]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 16:47:15)
+[2023.11.10-14.47.15:644][648]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.47.15:655][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011184s)
+[2023.11.10-14.47.15:655][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.011282s)
+[2023.11.10-14.47.15:684][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.11.10-14.47.15:686][648]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.47.15:686][648]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.47.15:686][648]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-14.47.15:686][648]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2023.11.10-14.47.15:687][648]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.11.10-14.47.15:687][648]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-14.47.15:687][648]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-14.47.15:687][648]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-14.47.15:687][648]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-14.47.15:687][648]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-14.47.15:687][648]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-14.47.15:687][648]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-14.47.15:687][648]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-14.47.15:687][648]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-14.47.15:687][648]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-14.47.15:687][648]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-14.47.15:690][648]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-14.47.15:711][648]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-14.47.15:711][648]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-14.47.15:711][648]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-14.47.15:711][648]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-14.47.15:714][648]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.11.10-14.47.15:714][648]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.11.10-14.47.15:716][648]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.11.10-14.47.15:716][648]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.11.10-14.47.15:716][648]LogInit: FAudioDevice initialized with ID 8.
+[2023.11.10-14.47.15:716][648]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level_Start'.
+[2023.11.10-14.47.15:716][648]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.10-14.47.15:720][648]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-14.47.15:725][648]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-15.47.15
+[2023.11.10-14.47.15:725][648]LogWorld: Bringing up level for play took: 0.005393
+[2023.11.10-14.47.15:727][648]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.11.10-14.47.15:729][648]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-14.47.15:729][648]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-14.47.15:730][648]PIE: Server logged in
+[2023.11.10-14.47.15:731][648]PIE: Play in editor total start time 0,127 seconds.
+[2023.11.10-14.47.43:814][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.47.43:815][861]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.47.43:815][861]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.47.43:815][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.47.43:820][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-14.47.43:827][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.47.43:870][861]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-14.47.43:871][861]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.10-14.47.43:871][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.10-14.47.43:873][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.10-14.47.43:876][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.47.43:880][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.10-14.47.44:045][862]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.11.10-14.47.49:942][231]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.47.49:953][231]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.48.42:599][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.48.42:667][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.48.42:680][356]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.48.42:680][356]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main1E86BD8943FC2EBEEACE8DB0A63B4B85.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.48.42:688][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 10.4 sec)
+[2023.11.10-14.48.42:689][356]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.48.42:689][356]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.48.45:299][642]BlueprintLog: New page: Compile WB_main
+[2023.11.10-14.48.45:345][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.11.10-14.48.46:455][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.48.46:517][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-14.48.46:531][742]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-14.48.46:531][742]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main179FD16B449CBE6DEB75ABAAB7F683AC.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-14.48.46:537][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 10.5 sec)
+[2023.11.10-14.48.46:539][742]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-14.48.46:539][742]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-14.49.17:678][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.49.17:856][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.49.17:890][815]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.49.17:890][815]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player8B375ECA49C01319ACD06A9FE1455260.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.49.17:898][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 10.7 sec)
+[2023.11.10-14.49.17:900][815]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.49.17:900][815]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.49.46:159][614]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.49.46:314][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.49.46:351][614]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.49.46:351][614]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player5598865B48A12E231AA86BB01216CED3.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.49.46:360][614]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 10.9 sec)
+[2023.11.10-14.49.46:363][614]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.49.46:363][614]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.49.54:085][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.49.54:244][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.49.54:279][412]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.49.54:279][412]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerCACA56A748C868B2630E37A359DA35EA.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.49.54:287][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 11.1 sec)
+[2023.11.10-14.49.54:289][412]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.49.54:290][412]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.50.12:477][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.50.12:635][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.50.12:675][ 46]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.50.12:676][ 46]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerBEC2F0C742BCD9647E1A39952A7A0DB1.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.50.12:684][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 11.3 sec)
+[2023.11.10-14.50.12:686][ 46]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.50.12:686][ 46]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.50.16:484][386]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.50.16:604][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.11.10-14.50.17:377][418]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.50.17:533][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.50.17:566][418]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.50.17:566][418]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerD66FEB8C4BD81403FC58B7B146FCE3F7.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.50.17:575][418]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 11.5 sec)
+[2023.11.10-14.50.17:577][418]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.50.17:577][418]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.50.19:068][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-14.50.19:083][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-14.50.19:083][513]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 16:50:19)
+[2023.11.10-14.50.19:083][513]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.50.19:087][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004101s)
+[2023.11.10-14.50.19:087][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.004139s)
+[2023.11.10-14.50.19:109][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.11.10-14.50.19:115][513]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.50.19:116][513]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.50.19:116][513]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-14.50.19:116][513]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2023.11.10-14.50.19:116][513]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.11.10-14.50.19:117][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-14.50.19:117][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-14.50.19:117][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-14.50.19:117][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-14.50.19:117][513]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-14.50.19:117][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-14.50.19:117][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-14.50.19:117][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-14.50.19:117][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-14.50.19:117][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-14.50.19:117][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-14.50.19:120][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-14.50.19:140][513]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-14.50.19:140][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-14.50.19:140][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-14.50.19:140][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-14.50.19:141][513]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.11.10-14.50.19:141][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.11.10-14.50.19:143][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.11.10-14.50.19:143][513]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.11.10-14.50.19:143][513]LogInit: FAudioDevice initialized with ID 9.
+[2023.11.10-14.50.19:143][513]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level_Start'.
+[2023.11.10-14.50.19:143][513]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.11.10-14.50.19:145][513]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-14.50.19:149][513]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-15.50.19
+[2023.11.10-14.50.19:150][513]LogWorld: Bringing up level for play took: 0.005134
+[2023.11.10-14.50.19:153][513]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.11.10-14.50.19:154][513]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-14.50.19:154][513]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-14.50.19:155][513]PIE: Server logged in
+[2023.11.10-14.50.19:156][513]PIE: Play in editor total start time 0,074 seconds.
+[2023.11.10-14.50.32:025][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.50.32:025][510]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.50.32:025][510]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.50.32:026][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.50.32:037][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-14.50.32:055][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.50.32:075][510]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-14.50.32:076][510]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.11.10-14.50.32:076][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.10-14.50.32:078][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.10-14.50.32:084][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.50.32:093][510]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2023.11.10-14.50.32:315][511]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.11.10-14.51.00:963][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.51.01:124][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.51.01:166][205]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.51.01:167][205]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player6D101D40483B451EC6006F86756AC55C.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.51.01:176][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 11.7 sec)
+[2023.11.10-14.51.01:178][205]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.51.01:178][205]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.51.29:995][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.51.30:175][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.51.30:211][876]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.51.30:211][876]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player1EC264DA4CAB2BD8D4A402B15B664B62.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.51.30:219][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 12.0 sec)
+[2023.11.10-14.51.30:220][876]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.51.30:220][876]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.51.34:161][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.51.34:227][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.51.34:260][326]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.51.34:261][326]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player619BAD8146E5106659D988844E291ACF.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.51.34:268][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 12.1 sec)
+[2023.11.10-14.51.34:270][326]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.51.34:270][326]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.51.35:359][446]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.51.35:446][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.11.10-14.51.36:006][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.51.36:171][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.51.36:211][473]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.51.36:213][473]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player371254F14491CD617B912E9D6298E1A5.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.51.36:219][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 12.3 sec)
+[2023.11.10-14.51.36:221][473]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.51.36:221][473]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.51.50:751][  2]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-14.51.50:763][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-14.51.50:763][  2]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 16:51:50)
+[2023.11.10-14.51.50:784][  2]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.51.50:788][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004654s)
+[2023.11.10-14.51.50:788][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.004712s)
+[2023.11.10-14.51.50:818][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.11.10-14.51.50:826][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.51.50:826][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.51.50:827][  2]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-14.51.50:827][  2]LogPlayLevel: PIE: World Init took: (0.001181s)
+[2023.11.10-14.51.50:827][  2]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.11.10-14.51.50:828][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-14.51.50:828][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-14.51.50:828][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-14.51.50:828][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-14.51.50:828][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-14.51.50:828][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-14.51.50:828][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-14.51.50:828][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-14.51.50:829][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-14.51.50:829][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-14.51.50:829][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-14.51.50:831][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-14.51.50:849][  2]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-14.51.50:849][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-14.51.50:849][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-14.51.50:849][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-14.51.50:850][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.11.10-14.51.50:850][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.11.10-14.51.50:851][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.11.10-14.51.50:851][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.11.10-14.51.50:851][  2]LogInit: FAudioDevice initialized with ID 10.
+[2023.11.10-14.51.50:851][  2]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level_Start'.
+[2023.11.10-14.51.50:851][  2]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.10-14.51.50:855][  2]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-14.51.50:859][  2]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-15.51.50
+[2023.11.10-14.51.50:859][  2]LogWorld: Bringing up level for play took: 0.004517
+[2023.11.10-14.51.50:861][  2]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.11.10-14.51.50:863][  2]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-14.51.50:863][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-14.51.50:864][  2]PIE: Server logged in
+[2023.11.10-14.51.50:865][  2]PIE: Play in editor total start time 0,102 seconds.
+[2023.11.10-14.52.05:294][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.52.05:294][135]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.52.05:294][135]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.52.05:294][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.52.05:298][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-14.52.05:304][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.52.05:323][135]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-14.52.05:323][135]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.10-14.52.05:323][135]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.10-14.52.05:326][135]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.10-14.52.05:330][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.52.05:333][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.10-14.52.05:489][136]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.11.10-14.52.07:809][277]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.52.07:817][277]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.52.25:437][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.52.25:553][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.52.25:587][ 73]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.52.25:587][ 73]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerC15124F7440B8B6CE813D3BE217BDF51.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.52.25:596][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 12.4 sec)
+[2023.11.10-14.52.25:598][ 73]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.52.25:598][ 73]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.52.26:760][197]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.52.26:848][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.11.10-14.52.27:560][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.52.27:696][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.52.27:735][235]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.52.27:735][235]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player5507F66345C5918A3BD7C78F212093E1.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.52.27:743][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 12.6 sec)
+[2023.11.10-14.52.27:746][235]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.52.27:746][235]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.52.29:870][382]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-14.52.29:879][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-14.52.29:879][382]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 16:52:29)
+[2023.11.10-14.52.29:879][382]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.52.29:883][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003866s)
+[2023.11.10-14.52.29:883][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.003908s)
+[2023.11.10-14.52.29:903][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.11.10-14.52.29:912][382]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.52.29:912][382]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.52.29:913][382]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-14.52.29:913][382]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2023.11.10-14.52.29:913][382]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.11.10-14.52.29:913][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-14.52.29:913][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-14.52.29:913][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-14.52.29:913][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-14.52.29:913][382]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-14.52.29:913][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-14.52.29:913][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-14.52.29:913][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-14.52.29:913][382]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-14.52.29:913][382]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-14.52.29:913][382]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-14.52.29:915][382]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-14.52.29:933][382]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-14.52.29:933][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-14.52.29:933][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-14.52.29:933][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-14.52.29:934][382]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.11.10-14.52.29:934][382]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.11.10-14.52.29:936][382]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.11.10-14.52.29:936][382]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.11.10-14.52.29:936][382]LogInit: FAudioDevice initialized with ID 11.
+[2023.11.10-14.52.29:936][382]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level_Start'.
+[2023.11.10-14.52.29:936][382]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.11.10-14.52.29:939][382]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-14.52.29:943][382]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-15.52.29
+[2023.11.10-14.52.29:944][382]LogWorld: Bringing up level for play took: 0.004348
+[2023.11.10-14.52.29:946][382]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.11.10-14.52.29:947][382]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-14.52.29:947][382]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-14.52.29:948][382]PIE: Server logged in
+[2023.11.10-14.52.29:949][382]PIE: Play in editor total start time 0,07 seconds.
+[2023.11.10-14.52.44:404][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.52.44:404][524]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.52.44:404][524]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.52.44:405][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.52.44:409][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-14.52.44:415][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.52.44:434][524]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-14.52.44:435][524]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.11.10-14.52.44:435][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.10-14.52.44:438][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.10-14.52.44:443][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.52.44:447][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.11.10-14.52.44:614][525]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.11.10-14.52.46:020][601]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.52.46:030][601]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.53.33:902][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.53.34:059][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.53.34:099][178]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.53.34:100][178]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player6707090C4DDD119129599E87BF6320A3.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.53.34:106][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 12.8 sec)
+[2023.11.10-14.53.34:108][178]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.53.34:108][178]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.53.39:693][763]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.53.39:784][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.10-14.53.41:386][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.53.41:547][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.53.41:589][900]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.53.41:589][900]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerB60709334A71D5D95B7322878A12F8EF.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.53.41:597][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 13.0 sec)
+[2023.11.10-14.53.41:600][900]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.53.41:600][900]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.53.43:178][ 16]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-14.53.43:186][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-14.53.43:186][ 16]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 16:53:43)
+[2023.11.10-14.53.43:187][ 16]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.53.43:191][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004861s)
+[2023.11.10-14.53.43:191][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.004910s)
+[2023.11.10-14.53.43:213][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.10-14.53.43:218][ 16]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.53.43:218][ 16]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.53.43:218][ 16]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-14.53.43:219][ 16]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2023.11.10-14.53.43:219][ 16]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.11.10-14.53.43:219][ 16]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-14.53.43:219][ 16]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-14.53.43:219][ 16]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-14.53.43:219][ 16]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-14.53.43:219][ 16]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-14.53.43:219][ 16]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-14.53.43:219][ 16]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-14.53.43:219][ 16]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-14.53.43:220][ 16]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-14.53.43:220][ 16]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-14.53.43:220][ 16]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-14.53.43:222][ 16]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-14.53.43:240][ 16]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-14.53.43:240][ 16]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-14.53.43:240][ 16]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-14.53.43:240][ 16]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-14.53.43:241][ 16]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.11.10-14.53.43:241][ 16]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.11.10-14.53.43:243][ 16]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.11.10-14.53.43:243][ 16]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.11.10-14.53.43:243][ 16]LogInit: FAudioDevice initialized with ID 12.
+[2023.11.10-14.53.43:243][ 16]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level_Start'.
+[2023.11.10-14.53.43:243][ 16]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.11.10-14.53.43:246][ 16]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-14.53.43:251][ 16]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-15.53.43
+[2023.11.10-14.53.43:251][ 16]LogWorld: Bringing up level for play took: 0.005249
+[2023.11.10-14.53.43:253][ 16]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.11.10-14.53.43:254][ 16]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-14.53.43:254][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-14.53.43:255][ 16]PIE: Server logged in
+[2023.11.10-14.53.43:256][ 16]PIE: Play in editor total start time 0,07 seconds.
+[2023.11.10-14.53.59:125][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.53.59:125][243]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.53.59:125][243]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.53.59:126][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.53.59:134][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-14.53.59:141][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.53.59:171][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-14.53.59:171][243]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.11.10-14.53.59:171][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.10-14.53.59:174][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.10-14.53.59:178][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.53.59:181][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.10-14.53.59:383][244]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.11.10-14.54.00:981][335]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.54.00:993][335]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.54.30:939][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.54.31:085][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.54.31:127][855]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.54.31:128][855]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player6556BB06406D540D7DF6E28ADC6E02C3.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.54.31:136][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 13.2 sec)
+[2023.11.10-14.54.31:139][855]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.54.31:139][855]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.54.32:654][  3]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.54.32:756][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.10-14.54.33:424][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.54.33:597][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.54.33:637][ 33]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.54.33:638][ 33]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player9554655C4688D4DCF0EA69BD29589D9A.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.54.33:645][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 13.5 sec)
+[2023.11.10-14.54.33:647][ 33]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.54.33:647][ 33]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.54.35:228][131]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-14.54.35:238][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-14.54.35:238][131]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 16:54:35)
+[2023.11.10-14.54.35:263][131]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.54.35:268][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004949s)
+[2023.11.10-14.54.35:268][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.005002s)
+[2023.11.10-14.54.35:291][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.11.10-14.54.35:299][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.54.35:299][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.54.35:299][131]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-14.54.35:300][131]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2023.11.10-14.54.35:300][131]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.11.10-14.54.35:300][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-14.54.35:300][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-14.54.35:300][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-14.54.35:300][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-14.54.35:300][131]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-14.54.35:300][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-14.54.35:300][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-14.54.35:300][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-14.54.35:300][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-14.54.35:300][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-14.54.35:300][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-14.54.35:303][131]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-14.54.35:322][131]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-14.54.35:322][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-14.54.35:322][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-14.54.35:322][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-14.54.35:323][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.11.10-14.54.35:323][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.11.10-14.54.35:324][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.11.10-14.54.35:325][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.11.10-14.54.35:325][131]LogInit: FAudioDevice initialized with ID 13.
+[2023.11.10-14.54.35:325][131]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level_Start'.
+[2023.11.10-14.54.35:325][131]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.11.10-14.54.35:327][131]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-14.54.35:333][131]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-15.54.35
+[2023.11.10-14.54.35:333][131]LogWorld: Bringing up level for play took: 0.005426
+[2023.11.10-14.54.35:335][131]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.11.10-14.54.35:337][131]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-14.54.35:337][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-14.54.35:338][131]PIE: Server logged in
+[2023.11.10-14.54.35:339][131]PIE: Play in editor total start time 0,102 seconds.
+[2023.11.10-14.54.50:865][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.54.50:865][323]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.54.50:865][323]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.54.50:866][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.54.50:871][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-14.54.50:878][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.54.50:901][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.54.50:902][323]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.11.10-14.54.50:902][323]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.10-14.54.50:904][323]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.10-14.54.50:911][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.11.10-14.54.51:104][324]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.11.10-14.54.53:344][457]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.54.53:363][457]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.55.48:987][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.55.49:151][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.55.49:189][ 15]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.55.49:190][ 15]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player10903A1143CF5A72DA7E6F838E183ADD.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.55.49:200][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 13.7 sec)
+[2023.11.10-14.55.49:203][ 15]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.55.49:203][ 15]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.55.50:594][151]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.55.50:686][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.10-14.55.51:346][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.55.51:472][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.55.51:511][187]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.55.51:511][187]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player10C8C36C4A4F072AC58BECB98DE18257.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.55.51:519][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 13.9 sec)
+[2023.11.10-14.55.51:520][187]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.55.51:520][187]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.55.52:859][284]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-14.55.52:868][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-14.55.52:868][284]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 16:55:52)
+[2023.11.10-14.55.52:868][284]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.55.52:873][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004313s)
+[2023.11.10-14.55.52:873][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.004382s)
+[2023.11.10-14.55.52:894][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.11.10-14.55.52:899][284]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.55.52:899][284]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.55.52:900][284]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-14.55.52:900][284]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2023.11.10-14.55.52:900][284]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.11.10-14.55.52:900][284]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-14.55.52:900][284]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-14.55.52:900][284]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-14.55.52:900][284]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-14.55.52:900][284]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-14.55.52:900][284]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-14.55.52:900][284]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-14.55.52:900][284]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-14.55.52:901][284]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-14.55.52:901][284]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-14.55.52:901][284]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-14.55.52:903][284]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-14.55.52:921][284]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-14.55.52:921][284]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-14.55.52:921][284]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-14.55.52:921][284]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-14.55.52:923][284]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.11.10-14.55.52:923][284]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.11.10-14.55.52:925][284]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.11.10-14.55.52:925][284]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.11.10-14.55.52:925][284]LogInit: FAudioDevice initialized with ID 14.
+[2023.11.10-14.55.52:925][284]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level_Start'.
+[2023.11.10-14.55.52:925][284]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.11.10-14.55.52:927][284]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-14.55.52:931][284]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-15.55.52
+[2023.11.10-14.55.52:933][284]LogWorld: Bringing up level for play took: 0.004902
+[2023.11.10-14.55.52:935][284]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.11.10-14.55.52:936][284]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-14.55.52:936][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-14.55.52:937][284]PIE: Server logged in
+[2023.11.10-14.55.52:938][284]PIE: Play in editor total start time 0,071 seconds.
+[2023.11.10-14.56.13:404][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.56.13:404][871]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-14.56.13:404][871]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.56.13:405][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.56.13:409][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-14.56.13:414][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.56.13:434][871]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-14.56.13:434][871]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.11.10-14.56.13:435][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.10-14.56.13:436][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.10-14.56.13:439][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-14.56.13:443][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.11.10-14.56.13:616][872]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.11.10-14.56.14:951][947]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.56.14:961][947]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-14.56.40:577][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.56.40:713][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.56.40:756][976]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.56.40:757][976]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerDD0F5ACE41E28E624739DEACBE426039.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.56.40:766][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 14.0 sec)
+[2023.11.10-14.56.40:769][976]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.56.40:770][976]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.56.43:724][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.56.43:787][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.56.43:823][256]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.56.43:824][256]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerA0B8B6EC4261A9700F59D2814F138BA5.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.56.43:833][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 14.2 sec)
+[2023.11.10-14.56.43:835][256]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.56.43:835][256]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.57.08:736][579]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-14.57.08:823][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.11.10-14.57.09:931][644]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.57.10:039][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-14.57.10:077][644]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-14.57.10:077][644]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player2A70E8CE45F8DA4830D387A13B86AB45.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-14.57.10:084][644]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 14.3 sec)
+[2023.11.10-14.57.10:085][644]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-14.57.10:085][644]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-14.57.24:141][332]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.11.10-14.57.24:155][332]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2023.11.10-14.57.24:168][332]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2023.11.10-14.57.24:187][333]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2023.11.10-14.57.33:775][ 86]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> SFX_Body_Player2
+[2023.11.10-14.57.33:777][ 86]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: ================================================
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Total job queries 233, among them cache hits 45 (19.31%)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Tracking 169 distinct input hashes that result in 128 distinct outputs (75.74%)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: RAM used: 4,77 MiB of 1,60 GiB budget. Usage: 0.29%
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Shaders Compiled: 169
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Jobs assigned 169, completed 169 (100%)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Average time worker was idle: 139.03 s
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Time job spent in pending queue: average 0.16 s, longest 1.04 s
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Job execution time: average 0.48 s, max 1.32 s
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 1.37
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Shader code size: average 51,862 KiB, min 1,187 KiB, max 83,812 KiB
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 38.43 s
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Jobs were issued in 169 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Average processing rate: 4.40 jobs/sec
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Total thread time: 55,479 s
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Total thread preprocess time: 4,119 s
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Percentage time preprocessing: 7.42%
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Effective parallelization: 1.44 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   44 times, average 0.34 sec, max 0.89 sec, min 0.04 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 35.33% of total time (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.66% of total time (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                               FNiagaraShader - 27.10% of total time (compiled   44 times, average 0.34 sec, max 0.89 sec, min 0.04 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.80% of total time (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display:                                                  FHitProxyPS - 1.94% of total time (compiled    7 times, average 0.15 sec, max 0.25 sec, min 0.11 sec)
+[2023.11.10-14.57.33:788][ 86]LogShaderCompilers: Display: ================================================
+[2023.11.10-14.57.33:819][ 88]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.042997 sec (time since issued), 0.039844 sec (combined shader worker time).
+[2023.11.10-14.57.35:321][199]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2
+[2023.11.10-14.57.35:338][199]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.57.35:338][199]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.57.35:404][199]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-14.57.35:404][199]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-14.57.35:515][199]LogViewport: Scene viewport resized to 205x210, mode Windowed.
+[2023.11.10-14.57.35:844][201]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.496291 sec (time since issued), 0.347851 sec (combined shader worker time).
+[2023.11.10-14.57.35:945][206]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-14.57.37:699][253]LogViewport: Scene viewport resized to 378x419, mode Windowed.
+[2023.11.10-14.57.40:010][380]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-14.57.40:010][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-14.57.41:880][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.57.41:963][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/SFX_Body_Player2" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_Body_Player2.uasset" SILENT=true
+[2023.11.10-14.57.41:978][475]LogSavePackage: Moving output files for package: /Game/Niagara/SFX_Body_Player2
+[2023.11.10-14.57.41:979][475]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/SFX_Body_Player2FF2BA2744911EB37B869F19B805C65B4.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_Body_Player2.uasset'
+[2023.11.10-14.57.41:990][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 14.4 sec)
+[2023.11.10-14.57.42:067][475]AssetCheck: New page: Asset Save: SFX_Body_Player2
+[2023.11.10-14.57.42:067][475]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2
+[2023.11.10-14.57.59:219][331]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 1.757377 sec (time since issued), 1.711837 sec (combined shader worker time).
+[2023.11.10-14.57.59:461][339]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-14.58.06:591][634]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.232492 sec (time since issued), 0.155563 sec (combined shader worker time).
+[2023.11.10-14.58.06:987][647]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/dd/89/f03f6cd647173376295a974991c15b49863a.udd from 'SFX_Body_Player2/OmnidirectionalBurst/ParticleGPUComputeScript'.
+[2023.11.10-14.58.07:215][655]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-14.58.32:886][747]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.614713 sec (time since issued), 0.657684 sec (combined shader worker time).
+[2023.11.10-14.58.32:898][747]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.58.32:969][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/SFX_Body_Player2" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_Body_Player2.uasset" SILENT=true
+[2023.11.10-14.58.33:019][747]LogSavePackage: Moving output files for package: /Game/Niagara/SFX_Body_Player2
+[2023.11.10-14.58.33:019][747]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/SFX_Body_Player205EB4E1C4916B67F68D0D48A02A287EC.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_Body_Player2.uasset'
+[2023.11.10-14.58.33:032][747]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 14.5 sec)
+[2023.11.10-14.58.33:057][747]AssetCheck: New page: Asset Save: SFX_Body_Player2
+[2023.11.10-14.58.33:057][747]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2
+[2023.11.10-14.58.33:057][747]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-14.58.33:057][747]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-14.59.11:410][419]111894_SFX_Body_Player2_MessageLog: System compile status unknown.
+[2023.11.10-14.59.12:260][447]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 1.040326 sec (time since issued), 0.935831 sec (combined shader worker time).
+[2023.11.10-14.59.12:688][463]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/e0/ba/baa6366931b8714f9cf67583ccf2ad95cc66.udd from 'SFX_Body_Player2/OmnidirectionalBurst/ParticleGPUComputeScript'.
+[2023.11.10-14.59.13:429][496]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-14.59.26:817][855]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.565799 sec (time since issued), 0.687554 sec (combined shader worker time).
+[2023.11.10-14.59.26:830][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-14.59.26:913][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/SFX_Body_Player2" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_Body_Player2.uasset" SILENT=true
+[2023.11.10-14.59.26:964][855]LogSavePackage: Moving output files for package: /Game/Niagara/SFX_Body_Player2
+[2023.11.10-14.59.26:965][855]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/SFX_Body_Player2BE5D24A8473BB0B00BF56088016EDA76.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_Body_Player2.uasset'
+[2023.11.10-14.59.26:977][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 14.7 sec)
+[2023.11.10-14.59.27:001][855]AssetCheck: New page: Asset Save: SFX_Body_Player2
+[2023.11.10-14.59.27:001][855]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2
+[2023.11.10-14.59.27:001][855]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-14.59.27:001][855]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.01.28:993][190]LogViewport: Scene viewport resized to 205x210, mode Windowed.
+[2023.11.10-15.01.38:009][570]LogViewport: Scene viewport resized to 378x419, mode Windowed.
+[2023.11.10-15.02.03:978][533]111894_SFX_Body_Player2_MessageLog: System compile status unknown.
+[2023.11.10-15.02.04:024][533]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.235524 sec (time since issued), 0.173012 sec (combined shader worker time).
+[2023.11.10-15.02.04:429][550]LogShaderCompilers: Display: ================================================
+[2023.11.10-15.02.04:429][550]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Total job queries 252, among them cache hits 50 (19.84%)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Tracking 180 distinct input hashes that result in 138 distinct outputs (76.67%)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: RAM used: 4,92 MiB of 1,60 GiB budget. Usage: 0.30%
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Shaders Compiled: 180
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Jobs assigned 180, completed 180 (100%)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Average time worker was idle: 140.73 s
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Time job spent in pending queue: average 0.16 s, longest 1.04 s
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Job execution time: average 0.46 s, max 1.32 s
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Job life time (pending + execution): average 0.62 s, max 1.37
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Shader code size: average 49,624 KiB, min 1,187 KiB, max 83,812 KiB
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 41.83 s
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Jobs were issued in 180 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Average processing rate: 4.30 jobs/sec
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Total thread time: 56,962 s
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Total thread preprocess time: 4,157 s
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Percentage time preprocessing: 7.30%
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Effective parallelization: 1.36 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 34.41% of total time (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                               FNiagaraShader - 29.00% of total time (compiled   55 times, average 0.30 sec, max 0.89 sec, min 0.04 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.94% of total time (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.71% of total time (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display:                                                  FHitProxyPS - 1.89% of total time (compiled    7 times, average 0.15 sec, max 0.25 sec, min 0.11 sec)
+[2023.11.10-15.02.04:430][550]LogShaderCompilers: Display: ================================================
+[2023.11.10-15.02.04:525][551]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/b8/79/1007894361bf3bae4a12d49177d961d34143.udd from 'SFX_Body_Player2/OmnidirectionalBurst/ParticleGPUComputeScript'.
+[2023.11.10-15.02.05:980][613]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.09:281][766]111894_SFX_Body_Player2_MessageLog: System compile status unknown.
+[2023.11.10-15.02.10:755][823]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.226523 sec (time since issued), 0.161526 sec (combined shader worker time).
+[2023.11.10-15.02.11:165][838]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/99/a5/71d4e9167cfd89dccfce2cad3e5797cc475b.udd from 'SFX_Body_Player2/OmnidirectionalBurst/ParticleGPUComputeScript'.
+[2023.11.10-15.02.11:296][843]111894_SFX_Body_Player2_MessageLog: System compile status unknown.
+[2023.11.10-15.02.13:303][937]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.15:311][ 23]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.17:374][ 98]111894_SFX_Body_Player2_MessageLog: System compile status unknown.
+[2023.11.10-15.02.17:410][ 98]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.255056 sec (time since issued), 0.190479 sec (combined shader worker time).
+[2023.11.10-15.02.17:848][114]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/cd/b3/463a08fd6197b56ecebed79c60a33ebd1ed3.udd from 'SFX_Body_Player2/OmnidirectionalBurst/ParticleGPUComputeScript'.
+[2023.11.10-15.02.19:377][182]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.21:386][268]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.27:336][550]111894_SFX_Body_Player2_MessageLog: System compile status unknown.
+[2023.11.10-15.02.27:368][550]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/SFX_Body_Player2.SFX_Body_Player2 took 0.208501 sec (time since issued), 0.137893 sec (combined shader worker time).
+[2023.11.10-15.02.27:720][564]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/3a/59/a7eac01c093584960e4e72de65a5c65b2b85.udd from 'SFX_Body_Player2/OmnidirectionalBurst/ParticleGPUComputeScript'.
+[2023.11.10-15.02.29:355][633]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.31:365][728]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.33:373][819]111894_SFX_Body_Player2_MessageLog: System successfully compiled.
+[2023.11.10-15.02.37:498][ 18]LogViewport: Scene viewport resized to 205x210, mode Windowed.
+[2023.11.10-15.02.39:254][ 93]LogSlate: Window 'SFX_Body_Player2' being destroyed
+[2023.11.10-15.02.39:261][ 93]LogSlate: Window 'SFX_Body_Player2' being destroyed
+[2023.11.10-15.02.39:304][ 93]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-15.02.39:305][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.02.39:333][ 93]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-15.02.39:333][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.02.39:429][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2023.11.10-15.02.39:737][109]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/c1/62/22432238d3471f04c606c81db4298c00b83e.udd from 'SFX_Body_Player2/OmnidirectionalBurst/ParticleGPUComputeScript'.
+[2023.11.10-15.02.42:517][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.11.10-15.02.45:216][309]LogSlate: Window 'Delete Assets' being destroyed
+[2023.11.10-15.02.45:428][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.11.10-15.02.45:454][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.11.10-15.02.45:473][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.11.10-15.02.52:217][656]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.11.10-15.02.52:235][656]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2023.11.10-15.02.52:247][656]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2023.11.10-15.02.52:266][657]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2023.11.10-15.02.54:823][857]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NewNiagaraSystem
+[2023.11.10-15.02.54:825][857]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2023.11.10-15.02.54:922][859]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.097588 sec (time since issued), 0.094754 sec (combined shader worker time).
+[2023.11.10-15.02.55:688][916]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.02.55:704][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-15.02.55:704][916]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-15.02.55:818][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-15.02.55:819][916]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-15.02.55:931][916]LogViewport: Scene viewport resized to 205x210, mode Windowed.
+[2023.11.10-15.02.56:115][918]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.400810 sec (time since issued), 0.201581 sec (combined shader worker time).
+[2023.11.10-15.02.56:220][923]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.02.59:123][ 48]LogViewport: Scene viewport resized to 378x419, mode Windowed.
+[2023.11.10-15.03.07:048][399]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 1.461287 sec (time since issued), 1.352438 sec (combined shader worker time).
+[2023.11.10-15.03.08:259][445]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/92/9a/f0072705cda98948709d1889a16c04d38d92.udd from 'NewNiagaraSystem/BlowingParticles/ParticleGPUComputeScript'.
+[2023.11.10-15.03.08:724][454]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.03.12:364][622]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.03.32:501][695]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 1.696738 sec (time since issued), 1.662466 sec (combined shader worker time).
+[2023.11.10-15.03.32:710][703]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.03.36:561][889]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.03.40:801][ 87]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 1.065581 sec (time since issued), 1.042013 sec (combined shader worker time).
+[2023.11.10-15.03.40:999][ 95]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.03.48:819][380]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.067995 sec (time since issued), 0.045608 sec (combined shader worker time).
+[2023.11.10-15.03.49:026][388]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.04.11:369][481]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.488405 sec (time since issued), 0.546202 sec (combined shader worker time).
+[2023.11.10-15.04.11:381][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.04.11:429][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.04.11:465][481]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.04.11:465][481]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystemDF93ACF044AFC720426E04887EBECC72.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.04.11:477][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 14.8 sec)
+[2023.11.10-15.04.11:487][481]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.04.11:487][481]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.04.11:487][481]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.04.11:487][481]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.04.29:717][146]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.04.30:355][168]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.750160 sec (time since issued), 0.648955 sec (combined shader worker time).
+[2023.11.10-15.04.31:721][234]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.05.04:753][852]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.05.04:771][852]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.114710 sec (time since issued), 0.050896 sec (combined shader worker time).
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: ================================================
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Total job queries 282, among them cache hits 55 (19.50%)
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Tracking 199 distinct input hashes that result in 150 distinct outputs (75.38%)
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: RAM used: 5,17 MiB of 1,60 GiB budget. Usage: 0.32%
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Shaders Compiled: 199
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Jobs assigned 199, completed 199 (100%)
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Average time worker was idle: 127.65 s
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 1.04 s
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Job execution time: average 0.44 s, max 1.32 s
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Job life time (pending + execution): average 0.59 s, max 1.37
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Shader code size: average 46,444 KiB, min 1,187 KiB, max 83,812 KiB
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 47.30 s
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Jobs were issued in 199 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Average processing rate: 4.21 jobs/sec
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Total thread time: 59,618 s
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Total thread preprocess time: 4,219 s
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Percentage time preprocessing: 7.08%
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Effective parallelization: 1.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.11.10-15.05.05:040][864]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 32.88% of total time (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display:                                               FNiagaraShader - 32.16% of total time (compiled   74 times, average 0.26 sec, max 0.92 sec, min 0.04 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.74% of total time (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.54% of total time (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display:                                                  FHitProxyPS - 1.80% of total time (compiled    7 times, average 0.15 sec, max 0.25 sec, min 0.11 sec)
+[2023.11.10-15.05.05:041][864]LogShaderCompilers: Display: ================================================
+[2023.11.10-15.05.05:102][865]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/fc/52/f5db7aeda39f0186d41f59daf634707d1a19.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.05.06:754][939]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.05.12:015][196]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.05.14:031][290]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.05.21:621][686]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.05.21:642][686]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.114029 sec (time since issued), 0.050128 sec (combined shader worker time).
+[2023.11.10-15.05.23:641][778]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.05.31:082][138]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.05.31:991][169]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 1.097996 sec (time since issued), 0.923284 sec (combined shader worker time).
+[2023.11.10-15.05.33:099][212]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.05.35:667][314]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.05.35:898][319]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.304193 sec (time since issued), 0.287993 sec (combined shader worker time).
+[2023.11.10-15.05.37:683][398]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.05.41:683][562]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.05.41:705][562]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.144195 sec (time since issued), 0.079690 sec (combined shader worker time).
+[2023.11.10-15.05.43:885][615]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.06.21:398][293]LogNiagaraEditor: Removed Var 'Constants.Empty.Initialize_MeshReproductionSprite.Particle Scale' from Script NiagaraScript /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem:Empty.SpawnScript
+[2023.11.10-15.06.21:398][293]LogNiagaraEditor: Removed Var 'Constants.Empty.Initialize_MeshReproductionSprite.Particle Scale' from Script NiagaraScript /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem:Empty.GPUComputeScript
+[2023.11.10-15.06.21:635][295]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.06.21:655][295]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.185447 sec (time since issued), 0.063462 sec (combined shader worker time).
+[2023.11.10-15.06.22:577][334]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/ae/41/6d1e02e12affd3e84e6e1e3c48f9190bfa06.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.06.23:656][375]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.06.56:381][504]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.06.56:404][504]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.098442 sec (time since issued), 0.057129 sec (combined shader worker time).
+[2023.11.10-15.06.57:256][536]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/2a/5c/9ba9eb43107dbeef8cb775a6d04094330a5c.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.06.59:303][544]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.07.27:460][ 46]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.07.27:495][ 46]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.184097 sec (time since issued), 0.093998 sec (combined shader worker time).
+[2023.11.10-15.07.28:376][ 82]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/4c/41/fd962caf4e211505c903a6e7458d147e4a5b.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.07.29:464][125]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.07.37:607][239]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.07.37:640][239]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.164529 sec (time since issued), 0.094564 sec (combined shader worker time).
+[2023.11.10-15.07.38:537][276]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/9b/da/5e79a579d7b374ffd88c619a3ccfb0565fee.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.07.40:581][284]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: ================================================
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Total job queries 296, among them cache hits 56 (18.92%)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Tracking 208 distinct input hashes that result in 155 distinct outputs (74.52%)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: RAM used: 5,33 MiB of 1,60 GiB budget. Usage: 0.33%
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Shaders Compiled: 208
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Jobs assigned 208, completed 208 (100%)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Average time worker was idle: 134.04 s
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Time job spent in pending queue: average 0.14 s, longest 1.04 s
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Job execution time: average 0.44 s, max 1.32 s
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 1.37
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Shader code size: average 45,587 KiB, min 1,187 KiB, max 83,812 KiB
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 51.40 s
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Jobs were issued in 208 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Average processing rate: 4.05 jobs/sec
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Total thread time: 62,259 s
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Total thread preprocess time: 4,26 s
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Percentage time preprocessing: 6.84%
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Effective parallelization: 1.21 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                               FNiagaraShader - 35.04% of total time (compiled   83 times, average 0.26 sec, max 0.92 sec, min 0.04 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 31.48% of total time (compiled   52 times, average 0.38 sec, max 0.92 sec, min 0.18 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.65% of total time (compiled   51 times, average 0.30 sec, max 0.61 sec, min 0.16 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.39% of total time (compiled    7 times, average 0.30 sec, max 0.73 sec, min 0.15 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display:                                                  FHitProxyPS - 1.73% of total time (compiled    7 times, average 0.15 sec, max 0.25 sec, min 0.11 sec)
+[2023.11.10-15.08.38:269][793]LogShaderCompilers: Display: ================================================
+[2023.11.10-15.08.38:284][793]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.464953 sec (time since issued), 0.857009 sec (combined shader worker time).
+[2023.11.10-15.08.38:295][793]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.08.38:364][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.08.38:416][793]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.08.38:417][793]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystem6AC50B20449AF63B00EED0B4604A1198.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.08.38:427][793]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 14.9 sec)
+[2023.11.10-15.08.38:447][793]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.08.38:447][793]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.08.38:447][793]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.08.38:447][793]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.08.50:971][410]LogDerivedDataCache: Display: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 63e0e7de8166259a20da9815b2f7e0f0b2506aa2 and existing hash f276282f87c88325d7cec41269e366c955f76b91 for LegacyNiagaraScriptDerivedData/60aa17c13f87ab97257672d8493377e12c875093 from '/Game/Niagara/NewNiagaraSystem.NewNiagaraSystem:SystemSpawnScript'
+[2023.11.10-15.08.51:089][410]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.334180 sec (time since issued), 0.414549 sec (combined shader worker time).
+[2023.11.10-15.08.51:100][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.08.51:164][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.08.51:213][410]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.08.51:214][410]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystem77B6EA9F4BD568AF05B80494740ACE86.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.08.51:223][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 15.0 sec)
+[2023.11.10-15.08.51:242][410]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.08.51:242][410]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.08.51:242][410]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.08.51:242][410]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.04:205][ 13]LogDerivedDataCache: Display: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 11c21f83ab988f4d76b3f9ec7d41fd43896f51d9 and existing hash f276282f87c88325d7cec41269e366c955f76b91 for LegacyNiagaraScriptDerivedData/60aa17c13f87ab97257672d8493377e12c875093 from '/Game/Niagara/NewNiagaraSystem.NewNiagaraSystem:SystemSpawnScript'
+[2023.11.10-15.09.04:225][ 13]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.429690 sec (time since issued), 0.714868 sec (combined shader worker time).
+[2023.11.10-15.09.04:238][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.09.04:295][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.09.04:341][ 13]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.09.04:343][ 13]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystem899A067845B903EE77AEE6BFE30C5F7D.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.09.04:354][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 15.2 sec)
+[2023.11.10-15.09.04:373][ 13]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.09.04:373][ 13]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.09.04:373][ 13]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.04:373][ 13]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.21:929][859]LogDerivedDataCache: Display: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 9b25471725520f5ad179b6d0dfc58f35f6edb5e1 and existing hash f276282f87c88325d7cec41269e366c955f76b91 for LegacyNiagaraScriptDerivedData/60aa17c13f87ab97257672d8493377e12c875093 from '/Game/Niagara/NewNiagaraSystem.NewNiagaraSystem:SystemSpawnScript'
+[2023.11.10-15.09.21:972][859]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.516630 sec (time since issued), 0.835434 sec (combined shader worker time).
+[2023.11.10-15.09.21:985][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.09.22:065][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.09.22:119][859]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.09.22:119][859]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystem30EC619F46A4CDBD53613E94182FE482.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.09.22:130][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 15.3 sec)
+[2023.11.10-15.09.22:150][859]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.09.22:150][859]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.09.22:150][859]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.22:150][859]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.38:068][217]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.09.38:101][217]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.185651 sec (time since issued), 0.099450 sec (combined shader worker time).
+[2023.11.10-15.09.39:193][259]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/94/42/d083b24fbe28d51bb8cf1a48cbbd3fc17b1b.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.09.40:078][280]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.09.41:654][335]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.150192 sec (time since issued), 0.122993 sec (combined shader worker time).
+[2023.11.10-15.09.42:084][352]LogNiagaraEditor: System NewNiagaraSystem has pending compile jobs. Waiting for that code to complete before Saving..
+[2023.11.10-15.09.42:600][352]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/f6/ad/1b1f2d02bb9b4abda36bd9bffc996ae0e9fb.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.09.42:791][352]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.184542 sec (time since issued), 0.203586 sec (combined shader worker time).
+[2023.11.10-15.09.42:804][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.09.42:862][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.09.42:914][352]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.09.42:914][352]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystem7572A2764320A8540ACF289C8E23F1F7.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.09.42:926][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 15.4 sec)
+[2023.11.10-15.09.42:947][352]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.09.42:947][352]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.09.42:947][352]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.42:947][352]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.42:947][352]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.09.44:091][398]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.09.56:439][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.09.56:497][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.09.56:548][970]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.09.56:549][970]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystem66F81848450C79B1456E4EAF45CA27F3.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.09.56:560][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 15.5 sec)
+[2023.11.10-15.09.56:581][970]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.09.56:581][970]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.09.56:581][970]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.09.56:581][970]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.10.34:341][351]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.10.34:376][351]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.210844 sec (time since issued), 0.101406 sec (combined shader worker time).
+[2023.11.10-15.10.35:607][401]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/5d/db/352f63d8dc519c255177790a387fddc7826d.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.10.36:355][417]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.10.38:532][526]LogNiagaraEditor: Removed Var 'Constants.Empty.Color.Color' from Script NiagaraScript /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem:Empty.UpdateScript
+[2023.11.10-15.10.38:532][526]LogNiagaraEditor: Removed Var 'Constants.Empty.Color.Color' from Script NiagaraScript /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem:Empty.GPUComputeScript
+[2023.11.10-15.10.38:779][528]150604_NewNiagaraSystem_MessageLog: System compile status unknown.
+[2023.11.10-15.10.38:812][528]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.188344 sec (time since issued), 0.126677 sec (combined shader worker time).
+[2023.11.10-15.10.40:046][575]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/3f/05/e64c698d4c9d90c08d876cec7bd84a6f3fd8.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.10.40:790][593]150604_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2023.11.10-15.10.45:283][804]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.10-15.10.50:400][ 41]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.10-15.11.08:371][796]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem took 0.185501 sec (time since issued), 0.203672 sec (combined shader worker time).
+[2023.11.10-15.11.08:381][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.11.08:445][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/NewNiagaraSystem" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset" SILENT=true
+[2023.11.10-15.11.08:501][796]LogSavePackage: Moving output files for package: /Game/Niagara/NewNiagaraSystem
+[2023.11.10-15.11.08:501][796]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/NewNiagaraSystem53F925494E5132C4AF01BBB32568D994.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/NewNiagaraSystem.uasset'
+[2023.11.10-15.11.08:511][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 15.7 sec)
+[2023.11.10-15.11.08:533][796]AssetCheck: New page: Asset Save: NewNiagaraSystem
+[2023.11.10-15.11.08:533][796]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/NewNiagaraSystem.NewNiagaraSystem
+[2023.11.10-15.11.08:533][796]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.11.08:533][796]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2023.11.10-15.11.15:293][124]LogViewport: Scene viewport resized to 205x210, mode Windowed.
+[2023.11.10-15.11.26:239][569]LogSlate: Window 'NewNiagaraSystem' being destroyed
+[2023.11.10-15.11.26:246][569]LogSlate: Window 'NewNiagaraSystem' being destroyed
+[2023.11.10-15.11.26:285][569]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-15.11.26:296][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.11.26:329][569]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-15.11.26:329][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.11.26:445][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.11.10-15.11.27:508][620]LogDerivedDataCache: C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/pierr/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyNIAGARASM/52/24/491e55b3b53e9a8108aef9b93ba915c9b8c2.udd from 'NewNiagaraSystem/Empty/ParticleGPUComputeScript'.
+[2023.11.10-15.11.53:222][217]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> SFX_SearchIndice
+[2023.11.10-15.11.53:779][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.11.53:819][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niagara/SFX_SearchIndice" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_SearchIndice.uasset" SILENT=true
+[2023.11.10-15.11.53:872][217]LogSavePackage: Moving output files for package: /Game/Niagara/SFX_SearchIndice
+[2023.11.10-15.11.53:872][217]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/SFX_SearchIndiceC14F7092403747203D081FA6C57557D5.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Niagara/SFX_SearchIndice.uasset'
+[2023.11.10-15.11.53:882][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 15.8 sec)
+[2023.11.10-15.11.53:918][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.11.10-15.11.53:947][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.10-15.11.53:967][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.10-15.11.53:971][217]AssetCheck: New page: Asset Save: SFX_SearchIndice
+[2023.11.10-15.11.53:971][217]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Niagara/SFX_SearchIndice.SFX_SearchIndice
+[2023.11.10-15.12.47:646][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.12.47:718][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-15.12.47:754][707]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-15.12.47:755][707]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerF75549F24676E8E015E6C3A2AF9AF59D.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-15.12.47:763][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 15.9 sec)
+[2023.11.10-15.12.47:767][707]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-15.12.47:767][707]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-15.12.51:378][  5]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-15.12.51:491][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.11.10-15.13.16:544][143]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.13.16:621][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-15.13.16:658][143]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-15.13.16:658][143]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player518E5A72419A490101A7D1B5F64A0628.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-15.13.16:667][143]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 16.0 sec)
+[2023.11.10-15.13.16:673][143]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-15.13.16:673][143]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-15.13.18:067][261]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-15.13.18:191][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.11.10-15.13.18:673][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.13.18:746][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-15.13.18:781][289]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-15.13.18:781][289]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerCAACF08E4B861CC436F55BB872DA1427.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-15.13.18:789][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 16.1 sec)
+[2023.11.10-15.13.18:791][289]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-15.13.18:791][289]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-15.13.21:595][498]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.13.21:653][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_Start" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.10-15.13.21:704][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.11.10-15.13.21:726][498]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.11.10-15.13.21:726][498]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/Level_Start575B939547AA100AAB81E5AE3B75F809.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.11.10-15.13.21:736][498]LogFileHelpers: Saving map 'Level_Start' took 0.084
+[2023.11.10-15.13.21:744][498]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 16.3 sec)
+[2023.11.10-15.13.21:745][498]AssetCheck: New page: Asset Save: Level_Start
+[2023.11.10-15.13.21:745][498]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.11.10-15.14.09:130][821]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.14.09:288][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-15.14.09:323][821]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-15.14.09:324][821]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player9B0C5FDD4B4250097AD91F8E87516617.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-15.14.09:335][821]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 16.5 sec)
+[2023.11.10-15.14.09:338][821]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-15.14.09:338][821]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-15.14.37:483][611]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.14.37:621][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-15.14.37:660][611]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-15.14.37:661][611]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_PlayerD2C18F384E8A346A39740494CCC6DD94.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-15.14.37:671][611]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 16.7 sec)
+[2023.11.10-15.14.37:674][611]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-15.14.37:674][611]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-15.14.39:066][751]BlueprintLog: New page: Compile BP_Player
+[2023.11.10-15.14.39:169][751]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.11.10-15.14.39:763][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.14.39:894][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.11.10-15.14.39:931][776]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.10-15.14.39:933][776]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/BP_Player6B78F3CE44C56FC75DC77EBEACDD8637.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/BP_Player.uasset'
+[2023.11.10-15.14.39:940][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 16.9 sec)
+[2023.11.10-15.14.39:943][776]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.10-15.14.39:943][776]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.11.10-15.14.41:299][871]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-15.14.41:310][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-15.14.41:310][871]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 17:14:41)
+[2023.11.10-15.14.41:344][871]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-15.14.41:350][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006272s)
+[2023.11.10-15.14.41:350][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.006347s)
+[2023.11.10-15.14.41:377][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.11.10-15.14.41:385][871]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-15.14.41:385][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-15.14.41:385][871]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-15.14.41:386][871]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2023.11.10-15.14.41:386][871]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.11.10-15.14.41:386][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-15.14.41:386][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-15.14.41:386][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-15.14.41:386][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-15.14.41:386][871]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-15.14.41:386][871]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-15.14.41:386][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-15.14.41:386][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-15.14.41:386][871]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-15.14.41:386][871]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-15.14.41:386][871]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-15.14.41:389][871]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-15.14.41:409][871]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-15.14.41:409][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-15.14.41:409][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-15.14.41:409][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-15.14.41:410][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.11.10-15.14.41:410][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.11.10-15.14.41:411][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.11.10-15.14.41:411][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.11.10-15.14.41:411][871]LogInit: FAudioDevice initialized with ID 15.
+[2023.11.10-15.14.41:411][871]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level_Start'.
+[2023.11.10-15.14.41:411][871]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.11.10-15.14.41:415][871]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-15.14.41:419][871]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-16.14.41
+[2023.11.10-15.14.41:419][871]LogWorld: Bringing up level for play took: 0.004844
+[2023.11.10-15.14.41:421][871]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.11.10-15.14.41:423][871]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-15.14.41:423][871]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-15.14.41:424][871]PIE: Server logged in
+[2023.11.10-15.14.41:425][871]PIE: Play in editor total start time 0,115 seconds.
+[2023.11.10-15.14.55:023][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-15.14.55:023][906]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-15.14.55:023][906]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-15.14.55:025][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.14.55:029][906]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-15.14.55:034][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.14.55:059][906]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-15.14.55:060][906]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.11.10-15.14.55:060][906]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.10-15.14.55:062][906]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.10-15.14.55:065][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-15.14.55:070][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.11.10-15.14.55:289][907]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.11.10-15.14.56:572][977]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-15.14.56:592][977]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-15.15.11:417][539]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-15.15.11:438][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-15.15.11:439][539]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 17:15:11)
+[2023.11.10-15.15.11:464][539]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-15.15.11:468][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004623s)
+[2023.11.10-15.15.11:468][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.004693s)
+[2023.11.10-15.15.11:491][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.11.10-15.15.11:495][539]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-15.15.11:495][539]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-15.15.11:495][539]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-15.15.11:496][539]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2023.11.10-15.15.11:496][539]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.11.10-15.15.11:496][539]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-15.15.11:496][539]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-15.15.11:496][539]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-15.15.11:496][539]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-15.15.11:496][539]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-15.15.11:496][539]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-15.15.11:496][539]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-15.15.11:496][539]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-15.15.11:496][539]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-15.15.11:496][539]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-15.15.11:496][539]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-15.15.11:499][539]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-15.15.11:518][539]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-15.15.11:518][539]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-15.15.11:518][539]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-15.15.11:518][539]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-15.15.11:519][539]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.11.10-15.15.11:519][539]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.11.10-15.15.11:523][539]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.11.10-15.15.11:523][539]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.11.10-15.15.11:523][539]LogInit: FAudioDevice initialized with ID 16.
+[2023.11.10-15.15.11:523][539]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level_Start'.
+[2023.11.10-15.15.11:523][539]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.11.10-15.15.11:524][539]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-15.15.11:530][539]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-16.15.11
+[2023.11.10-15.15.11:531][539]LogWorld: Bringing up level for play took: 0.005369
+[2023.11.10-15.15.11:533][539]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.11.10-15.15.11:534][539]LogScript: Warning: Accessed None trying to read property WB_Main
+	BP_PlayerController_C /Game/Levels/UEDPIE_0_Level_Start.Level_Start:PersistentLevel.BP_PlayerController_C_0
+	Function /Game/Blueprints/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController:0091
+[2023.11.10-15.15.11:534][539]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-15.15.11:536][539]PIE: Server logged in
+[2023.11.10-15.15.11:537][539]PIE: Play in editor total start time 0,1 seconds.
+[2023.11.10-15.16.06:514][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-15.16.06:514][310]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-15.16.06:515][310]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-15.16.06:515][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.16.06:519][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-15.16.06:524][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.16.06:545][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-15.16.06:546][310]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.11.10-15.16.06:546][310]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.10-15.16.06:548][310]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.10-15.16.06:556][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.11.10-15.16.06:771][311]LogPlayLevel: Display: Destroying online subsystem :Context_40
