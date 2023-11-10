@@ -4831,3 +4831,138 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.10-15.51.43:317][821]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 20.9 sec)
 [2023.11.10-15.51.43:319][821]AssetCheck: New page: Asset Save: Level_Start
 [2023.11.10-15.51.43:319][821]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
+[2023.11.10-15.55.22:354][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.55.22:397][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.55.22:412][128]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.55.22:412][128]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_mainF1C1D76047FA3559E1631899A81D7B74.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.55.22:420][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 21.0 sec)
+[2023.11.10-15.55.22:421][128]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.55.22:421][128]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.55.26:126][490]BlueprintLog: New page: Compile WB_main
+[2023.11.10-15.55.26:181][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.11.10-15.55.26:681][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.55.26:754][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.55.26:765][516]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.55.26:766][516]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main1D5914824931232E7BBBB69C41DBAA2F.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.55.26:773][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 21.1 sec)
+[2023.11.10-15.55.26:775][516]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.55.26:775][516]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.58.37:695][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.58.37:779][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.58.37:795][766]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.58.37:796][766]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_mainB8EB639B4A46BA04E12B69A3224FF4D1.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.58.37:803][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 21.2 sec)
+[2023.11.10-15.58.37:804][766]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.58.37:804][766]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.58.40:424][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.58.40:478][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.58.40:493][ 50]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.58.40:493][ 50]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main7CB73F97429D10382C02408AB11AD0B8.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.58.40:501][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 21.3 sec)
+[2023.11.10-15.58.40:502][ 50]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.58.40:502][ 50]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.58.52:863][485]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.58.52:968][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.58.52:979][485]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.58.52:979][485]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main9D4147D04B0349A24F8DE4A3EB064641.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.58.52:986][485]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 21.4 sec)
+[2023.11.10-15.58.52:988][485]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.58.52:988][485]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.58.57:462][987]LogEditorTransaction: Undo Rename Widget
+[2023.11.10-15.59.11:776][501]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.59.11:864][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.59.11:875][501]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.59.11:876][501]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main54766C52470C97C7B9BA2B85DE298F53.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.59.11:885][501]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 21.5 sec)
+[2023.11.10-15.59.11:887][501]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.59.11:887][501]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.59.17:694][114]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.59.17:774][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.59.17:786][114]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.59.17:786][114]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main667DB08F43745DFE8955CABAB3A728A2.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.59.17:795][114]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 21.6 sec)
+[2023.11.10-15.59.17:798][114]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.59.17:799][114]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.59.35:424][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.59.35:498][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.59.35:510][995]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.59.35:510][995]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main6D94934A465F008E3314699A73E7E457.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.59.35:517][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 21.7 sec)
+[2023.11.10-15.59.35:519][995]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.59.35:519][995]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.59.36:729][129]BlueprintLog: New page: Compile WB_main
+[2023.11.10-15.59.36:770][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.11.10-15.59.37:239][163]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.59.37:320][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameUI/WB_main" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset" SILENT=true
+[2023.11.10-15.59.37:341][163]LogSavePackage: Moving output files for package: /Game/Blueprints/GameUI/WB_main
+[2023.11.10-15.59.37:342][163]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/WB_main289EEDD04759628FB3D773AB70772EDA.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Blueprints/GameUI/WB_main.uasset'
+[2023.11.10-15.59.37:349][163]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 21.8 sec)
+[2023.11.10-15.59.37:350][163]AssetCheck: New page: Asset Save: WB_main
+[2023.11.10-15.59.37:351][163]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameUI/WB_main.WB_main
+[2023.11.10-15.59.38:536][249]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-15.59.38:547][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-15.59.38:547][249]PIE: New page: PIE session: Level_Start (10 nov. 2023 à 17:59:38)
+[2023.11.10-15.59.38:584][249]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-15.59.38:590][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006917s)
+[2023.11.10-15.59.38:591][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Start.Level_Start to /Game/Levels/UEDPIE_0_Level_Start.Level_Start (0.007014s)
+[2023.11.10-15.59.38:612][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.10-15.59.38:615][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.10-15.59.38:615][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-15.59.38:616][249]LogAIModule: Creating AISystem for world Level_Start
+[2023.11.10-15.59.38:616][249]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2023.11.10-15.59.38:616][249]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.11.10-15.59.38:616][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-15.59.38:616][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-15.59.38:616][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-15.59.38:616][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-15.59.38:616][249]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-15.59.38:616][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.10-15.59.38:616][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-15.59.38:616][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-15.59.38:617][249]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.10-15.59.38:617][249]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.10-15.59.38:617][249]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-15.59.38:619][249]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-15.59.38:639][249]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.11.10-15.59.38:640][249]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-15.59.38:640][249]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-15.59.38:640][249]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-15.59.38:641][249]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.11.10-15.59.38:641][249]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.11.10-15.59.38:642][249]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.11.10-15.59.38:642][249]LogInit: FAudioDevice initialized with ID 28.
+[2023.11.10-15.59.38:642][249]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.11.10-15.59.38:642][249]LogAudio: Display: Audio Device (ID: 28) registered with world 'Level_Start'.
+[2023.11.10-15.59.38:642][249]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2023.11.10-15.59.38:645][249]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.11.10-15.59.38:649][249]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Start.Level_Start up for play (max tick rate 0) at 2023.11.10-16.59.38
+[2023.11.10-15.59.38:650][249]LogWorld: Bringing up level for play took: 0.004655
+[2023.11.10-15.59.38:652][249]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.11.10-15.59.38:654][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WB_Main". Node:  Set Health Bar Info Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2023.11.10-15.59.38:655][249]PIE: Server logged in
+[2023.11.10-15.59.38:656][249]PIE: Play in editor total start time 0,11 seconds.
+[2023.11.10-15.59.45:314][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-15.59.45:314][763]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Start
+[2023.11.10-15.59.45:314][763]LogWorld: UWorld::CleanupWorld for Level_Start, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-15.59.45:315][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.59.45:323][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-15.59.45:330][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-15.59.45:354][763]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-15.59.45:355][763]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2023.11.10-15.59.45:355][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.11.10-15.59.45:358][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.11.10-15.59.45:364][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-15.59.45:367][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.10-15.59.45:374][763]LogActorComponent: ReregisterComponent: (/Game/Levels/Level_Start.Level_Start:PersistentLevel.AmbientSound_1.AudioComponent0) Not currently registered. Aborting.
+[2023.11.10-15.59.45:503][764]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.11.10-15.59.47:982][912]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-15.59.47:990][912]LogSlate: Window 'Message Log' being destroyed
+[2023.11.10-15.59.48:569][949]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-15.59.48:624][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_Start" FILE="../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.10-15.59.48:670][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.11.10-15.59.48:689][949]LogSavePackage: Moving output files for package: /Game/Levels/Level_Start
+[2023.11.10-15.59.48:689][949]LogSavePackage: Moving '../../../../../Github/Unreal-Engine-Game/SpaceGame/Saved/Level_StartD37A574249805CF1DD45198141ABADDD.tmp' to '../../../../../Github/Unreal-Engine-Game/SpaceGame/Content/Levels/Level_Start.umap'
+[2023.11.10-15.59.48:699][949]LogFileHelpers: Saving map 'Level_Start' took 0.075
+[2023.11.10-15.59.48:714][949]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 22.0 sec)
+[2023.11.10-15.59.48:716][949]AssetCheck: New page: Asset Save: Level_Start
+[2023.11.10-15.59.48:716][949]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_Start.Level_Start
